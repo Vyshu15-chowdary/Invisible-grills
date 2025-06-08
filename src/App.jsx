@@ -11,6 +11,7 @@ function App() {
 
   return (
     <>
+    <h1>Jai Shri Shyam</h1>
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
