@@ -6,12 +6,13 @@ import Services from "./pages/Services"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
 import PageNotFound from './pages/PageNotFound'
+import WhatsAppButton from './components/WhatsAppButton'
 function App() {
 
 
   return (
     <>
-    <h1>Jai Shri Shyam</h1>
+   
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
@@ -20,6 +21,9 @@ function App() {
       <Route path='/gallery' element={<Gallery/>}/>
       <Route path='*' element={<PageNotFound/>} ></Route>
      </Routes>
+
+
+     <WhatsAppButton/>
     </>
   )
 }
