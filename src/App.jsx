@@ -7,6 +7,7 @@ import About from "./pages/About"
 import Contact from "./pages/Contact"
 import PageNotFound from './pages/PageNotFound'
 import WhatsAppButton from './components/WhatsAppButton'
+import CallMeButton from './components/CallMeButton'
 function App() {
 
 
@@ -24,6 +25,7 @@ function App() {
 
 
      <WhatsAppButton/>
+     <CallMeButton/>
     </>
   )
 }
