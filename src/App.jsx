@@ -5,6 +5,7 @@ import Gallery from './pages/Gallery'
 import Services from "./pages/Services"
 import About from "./pages/About"
 import Contact from "./pages/Contact"
+import PageNotFound from './pages/PageNotFound'
 function App() {
 
 
@@ -16,7 +17,7 @@ function App() {
       <Route path='/services' element={<Services/>}/>
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/gallery' element={<Gallery/>}/>
-      
+      <Route path='*' element={<PageNotFound/>} ></Route>
      </Routes>
     </>
   )
