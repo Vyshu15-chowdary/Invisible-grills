@@ -9,6 +9,7 @@ import PageNotFound from './pages/PageNotFound'
 import WhatsAppButton from './components/WhatsAppButton'
 import CallMeButton from './components/CallMeButton'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 function App() {
 
 
@@ -27,6 +28,9 @@ function App() {
 
      <WhatsAppButton/>
      <CallMeButton/>
+
+
+     <Footer/>
     </>
   )
 }
