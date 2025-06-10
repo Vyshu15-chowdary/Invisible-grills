@@ -8,12 +8,13 @@ import Contact from "./pages/Contact"
 import PageNotFound from './pages/PageNotFound'
 import WhatsAppButton from './components/WhatsAppButton'
 import CallMeButton from './components/CallMeButton'
+import Navbar from './components/Navbar'
 function App() {
 
 
   return (
     <>
-   
+   <Navbar/>
      <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
