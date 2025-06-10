@@ -8,12 +8,16 @@
 .footer-sections{
     padding: 2rem 12% 1rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .footer-section{
+    min-width: 220px;
     width: 22%;
+    margin-bottom: 2rem;
 }
+
 .footer-section h2{
     margin-bottom: 1rem;
 }
@@ -28,13 +32,26 @@
     font-size: 14px;
     line-height: 2;
 }
+
 .footer-section a{
     color: #ddd;
 }
+
 .footer-bottom{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 12%;
     font-size: 14px;
+}
+
+/* # Responsiveness  */
+
+@media screen and (max-width:480px) {
+    .footer-bottom{
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+    }
 }
