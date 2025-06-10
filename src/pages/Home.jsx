@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <>
        <header>
-      <h1>Invisible Grills</h1>
+      <h1>Vyshnavi Invisible Grills</h1>
       </header>
 
       <main>

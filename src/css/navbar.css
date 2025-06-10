@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #8f1428;
+    color: #ddd;
+}
+
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #ddd;
+}
