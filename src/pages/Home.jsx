@@ -1,21 +1,12 @@
 import React from 'react'
+import Hero from '../components/Hero'
 
 const Home = () => {
+  const ImgUrl = 'https://www.rohitaluminium.com/wp-content/uploads/2023/03/WhatsApp-Image-2023-02-14-at-3.44.44-PM.jpeg';
+  const heroText = 'Welcome To Home Page.';
   return (
     <>
-       <header>
-      <h1>Vyshnavi Invisible Grills</h1>
-      </header>
-
-      <main>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptatibus exercitationem excepturi aperiam dolorum voluptates voluptatum laudantium itaque iste velit.</p>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, quia amet tempore repellendus dignissimos ex laborum? Totam maiores animi maxime ratione, in explicabo aliquid obcaecati!</p>
-      </main>
-
-      <footer>
-        <p>Invisible Grills @2025</p>
-      </footer>
+      <Hero heading={heroText} ImgUrl={ImgUrl} />
     </>
   )
 }
