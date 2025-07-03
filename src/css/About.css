@@ -13,7 +13,7 @@
 
 .title h1{
     text-align: center;
-    color: rgb(214, 25, 25);
+    color:  #8f1428;
     position: relative;
     display: flex;
     text-shadow:none;
@@ -39,7 +39,7 @@
 }
 
 .sub-title p{
-    color: aliceblue;
+    color: whitesmoke;
     
 }
 
@@ -55,7 +55,7 @@
     display: flex;
     justify-content: space-around;
     width:100%;
-    background-color:rgb(180, 35, 35)
+    background-color: white;
 }
 
 .icon{
@@ -71,5 +71,13 @@
 }
 .text p{
     font-size: 18px;
-    color:white;
+    color:brown;
 }
+
+
+img{
+    width:30%;
+    height:auto;
+    padding: 3px;
+}
+

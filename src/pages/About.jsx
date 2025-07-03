@@ -33,7 +33,7 @@ const About = () => {
 
         <div className='stat'>
           <div className='icon'>
-            <i></i>
+           <img src ="./task-complete.png" alt = "task complete" className='img'></img>
           </div>
           <div className='text'>
             <h1>500+</h1>
@@ -43,7 +43,7 @@ const About = () => {
 
          <div className='stat'>
           <div className='icon'>
-            <i></i>
+            <img src= "./costumer.png" alt = "client"/>
           </div>
           <div className='text'>
             <h1>500+</h1>
@@ -53,7 +53,7 @@ const About = () => {
 
          <div className='stat'>
           <div className='icon'>
-            <i></i>
+            <img src="validation.png"alt="certified"/>
           </div>
           <div className='text'>
             <h1>1</h1>
