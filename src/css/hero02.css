@@ -1,0 +1,16 @@
+.hero02{
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero02 h1{
+    font-size: 3rem;
+    color: #ddd;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
