@@ -51,3 +51,25 @@
     align-items: center;
     justify-content: center;
 }
+.stats{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    background-color:rgb(180, 35, 35)
+}
+
+.icon{
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+.text{
+    text-align: center;
+}
+.text h2{
+    color :black;
+}
+.text p{
+    font-size: 18px;
+    color:white;
+}
