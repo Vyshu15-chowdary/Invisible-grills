@@ -10,13 +10,30 @@ const Services = () => {
     <Hero  ImgUrl={ImgUrl} heading={heading}  />
 
     <div className='services'>
-      <div className='header'>
+      <div className='header1'>
         <h2>Premium Invisible Grills Installation & Customization</h2>
          <p>At Vyshnavi Invisible Grills, we specialize in offering top-quality invisible grill solutions designed to enhance safety without compromising style or view.
            Whether for homes,
            high-rise apartments, offices, or commercial spaces — our grills blend modern aesthetics with the highest safety standards.
 
 </p>
+      </div>
+
+      <div className='service1'>
+        <h2>🏢 Residential Invisible Grills</h2>
+        <p>Secure your balconies, windows, and open spaces with our rust-proof and child-safe invisible grills. Ideal for apartments, villas, and gated communities.
+
+          <span>Features:</span>
+
+          2mm to 3mm high-tensile SS 316 marine-grade cables
+
+          Up to 300 kg tensile strength
+
+          Gap customization (2", 3", 4" as per safety needs)
+
+          Sleek, nearly invisible design
+
+          Corrosion-resistant and weatherproof</p>
       </div>
 
 
