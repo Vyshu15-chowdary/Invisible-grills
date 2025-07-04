@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
+import CounterCard from '../components/CounterCard';
 
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Hero heading={heroText} ImgUrl={ImgUrl} />
-
+      <CounterCard />
     </>
   )
 }
