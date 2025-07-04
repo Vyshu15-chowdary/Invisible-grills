@@ -1,0 +1,22 @@
+.header1 h2{
+    
+    color:brown;
+    font-size:40px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+
+}
+
+.header1 p{
+
+    padding-left: 25px;
+    font-family:'georgia';
+    letter-spacing: 2px;
+}
+
+.service1{
+
+    position: relative;
+
+
+}
