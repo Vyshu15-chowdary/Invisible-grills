@@ -1,0 +1,14 @@
+.counter-card{
+    width: 23%;
+    height: 200px;
+    color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-card h1{
+    font-size: 2.5rem;
+    margin: 0;
+}

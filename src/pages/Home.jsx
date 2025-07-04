@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Hero heading={heroText} ImgUrl={ImgUrl} />
-      <CounterCard />
+      <CounterCard bgColor={"#8f1428"}  value={500} suffix={"+"} title={"Happy Customers"} />
     </>
   )
 }
