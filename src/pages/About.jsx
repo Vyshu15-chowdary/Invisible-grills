@@ -27,22 +27,24 @@ const About = () => {
 
    
    <div className='flexcontainer'>
+    <div className='card'>
     <div className='card1'>
       <img src="./project.jpg" alt= "projects completed"></img>
-      <h2>300+</h2>
-      <p> projects</p>
+      <h2>500+</h2>
+      <p>PROJECTS DONE</p>
+    </div>
     </div>
 
     <div className='card2'>
       <img src="./clients.jpg" alt="customers"></img>
-      <h2>300+  </h2>
-      <p>HAPPY CLIENTS</p>
+      <h2>500+</h2>
+      <p>CLIENTS SATISFIED</p>
 
     </div>
     <div className='card3'>
       <img src="./quality.jpg" alt="customers"></img>
       <h2> quality Material </h2>
-      <p></p>
+      <p>NUMBER 1 QUALITY</p>
 
     </div>
 
