@@ -1,6 +1,8 @@
 import React from 'react'
 import CounterCard from './CounterCard'
 
+import "../css/achievements.css"
+
 const Achievements = () => {
   return (
     <div className='achievements'>
