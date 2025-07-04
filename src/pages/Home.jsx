@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero'
 import Achievements from '../components/Achievements';
+import QuickServiceRequest from '../components/QuickServiceRequest';
 
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
   return (
     <>
       <Hero heading={heroText} ImgUrl={ImgUrl} />
+      <QuickServiceRequest/>
       <Achievements/>
     </>
   )
