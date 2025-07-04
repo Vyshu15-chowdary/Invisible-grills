@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import CounterCard from '../components/CounterCard';
+import Achievements from '../components/Achievements';
 
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
       <Hero heading={heroText} ImgUrl={ImgUrl} />
-      <CounterCard bgColor={"#8f1428"}  value={500} suffix={"+"} title={"Happy Customers"} />
+      <Achievements/>
     </>
   )
 }
