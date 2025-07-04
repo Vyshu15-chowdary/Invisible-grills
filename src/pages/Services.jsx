@@ -34,6 +34,8 @@ const Services = () => {
           Sleek, nearly invisible design
 
           Corrosion-resistant and weatherproof</p>
+
+          <img src="./img3" alt="img"></img>
       </div>
 
 
