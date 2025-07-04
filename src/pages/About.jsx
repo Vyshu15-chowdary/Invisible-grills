@@ -25,62 +25,30 @@ const About = () => {
     </div>
    </section>
 
-  
+   
+   <div className='flexcontainer'>
+    <div className='card1'>
+      <img src="./project.jpg" alt= "projects completed"></img>
+      <h2>300+</h2>
+      <p> projects</p>
+    </div>
 
-   <section className='about_container'>
-    <div className='about_container'>
-      <div className='stats'>
+    <div className='card2'>
+      <img src="./clients.jpg" alt="customers"></img>
+      <h2>300+  </h2>
+      <p>HAPPY CLIENTS</p>
 
-        <div className='stat'>
-          <div className='icon'>
-           <img src ="./task-complete.png" alt = "task complete" className='img'></img>
-          </div>
-          <div className='text'>
-            <h1>500+</h1>
-            <p>Projects Done</p>
-          </div>
-        </div>
-
-         <div className='stat'>
-          <div className='icon'>
-            <img src= "./costumer.png" alt = "client"/>
-          </div>
-          <div className='text'>
-            <h1>500+</h1>
-            <p>Happy Clients</p>
-          </div>
-        </div>
-
-         <div className='stat'>
-          <div className='icon'>
-            <img src="validation.png"alt="certified"/>
-          </div>
-          <div className='text'>
-            <h1>1</h1>
-            <p>certified</p>
-          </div>
-        </div>
-
-         <div className='stat'>
-          <div className='icon'>
-            <i></i>
-          </div>
-          <div className='text'>
-            <h1>Material Quality</h1>
-            <p>material</p>
-          </div>
-        </div>
-
-
-
-
-
-
-      </div>
+    </div>
+    <div className='card3'>
+      <img src="./quality.jpg" alt="customers"></img>
+      <h2> quality Material </h2>
+      <p></p>
 
     </div>
 
-   </section> 
+   </div>
+
+  
     
 
   
