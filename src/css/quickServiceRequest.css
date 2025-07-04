@@ -37,4 +37,8 @@
     outline: none;
     height: 50px;
     width: 100%;
+    background-color: #8f1428;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
 }
