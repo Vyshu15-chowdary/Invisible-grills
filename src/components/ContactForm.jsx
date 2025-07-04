@@ -21,7 +21,7 @@ const ContactForm = () => {
     //     e.target.reset(); // Reset the form after submission
     // }
     return (
-        <div>
+        <>
             <h2>Contact Us</h2>
             <form ref={form} >
 
@@ -42,7 +42,7 @@ const ContactForm = () => {
                     <button>Submit</button>
                 </div>
             </form>
-        </div>
+        </>
     )
 }
 

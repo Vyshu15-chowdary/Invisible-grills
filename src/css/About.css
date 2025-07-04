@@ -55,7 +55,7 @@
 
 
 
-.card1,img{
+.card1 img{
 
     background-color: #f8f2f3;
     text-align: center;
@@ -70,7 +70,7 @@
 }
 
 
-.card2:not(p,h2),img{
+.card2 img{
 
     background-color: #f8f2f3;
     text-align: center;
@@ -81,8 +81,6 @@
     margin-bottom: 120px;
     box-shadow:0px 0px 10px rgb(164, 164, 165);
     
-
-
 }
 
 
