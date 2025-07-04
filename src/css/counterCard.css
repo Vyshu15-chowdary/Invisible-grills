@@ -1,5 +1,5 @@
 .counter-card{
-    width: 23%;
+    width: 25%;
     height: 200px;
     color: #ddd;
     display: flex;
@@ -11,4 +11,15 @@
 .counter-card h1{
     font-size: 2.5rem;
     margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .counter-card {
+        width: 100%;
+        height: 150px;
+    }
+    .counter-card h1 {
+        font-size: 2rem;
+    }
+    
 }
