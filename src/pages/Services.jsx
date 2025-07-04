@@ -21,9 +21,10 @@ const Services = () => {
 
       <div className='service1'>
         <h2>🏢 Residential Invisible Grills</h2>
+        <img src="./img3.webp" alt="img"></img>
         <p>Secure your balconies, windows, and open spaces with our rust-proof and child-safe invisible grills. Ideal for apartments, villas, and gated communities.
 
-          <span>Features:</span>
+          <b>Features:</b>
 
           2mm to 3mm high-tensile SS 316 marine-grade cables
 
@@ -35,7 +36,7 @@ const Services = () => {
 
           Corrosion-resistant and weatherproof</p>
 
-          <img src="./img3" alt="img"></img>
+         
       </div>
 
 

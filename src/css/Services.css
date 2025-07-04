@@ -17,7 +17,24 @@
 .service1{
 
     position: relative;
+
+}
+
+.service1 img{
+
+    position:relative;
+    margin-top: 15px;
+}
+.service1 p {
+    display: grid;
+    grid-column:3px;
+    padding: 12px;
+    margin-top:-100px;
+
+}
+
+.service1 span{
+
+    color:black;
     
-
-
 }
