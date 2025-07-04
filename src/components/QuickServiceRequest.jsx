@@ -4,6 +4,11 @@ import '../css/quickServiceRequest.css';
 
 
 const QuickServiceRequest = () => {
+
+  const handleSubmit = (e)=>{
+    e.preventDefault();
+    console.log("Quick Service Form Submitted!")
+  }
   return (
     <div className='qsr'>
       <div className="txt-wrapper">
@@ -11,7 +16,7 @@ const QuickServiceRequest = () => {
         <h1>Free Inspection Request</h1>
       </div>
      
-        <form action="">
+        <form onSubmit={handleSubmit}>
           
             <input autoComplete='off' type="text" name='name' placeholder='Enter Full Name' />
             <input autoComplete='off' type="text" name='phone' placeholder='Enter Phone Number' />

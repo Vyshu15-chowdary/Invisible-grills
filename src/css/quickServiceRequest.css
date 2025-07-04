@@ -32,7 +32,7 @@
     padding: 20px;
 }
 
-.qsr form input[type="text"]{
+.qsr form input{
     width: 100%;
     padding: 10px;
     height:50px ;
@@ -55,4 +55,24 @@
 .qsr form button:hover{
     background-color: #ba2039;
 
+}
+
+
+/* media query */
+@media screen and (max-width:768px) {
+    .qsr{
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+    }
+    .qsr .txt-wrapper{
+        width: 100%;
+    }
+    .txt-wrapper h1{
+        display: none;
+    }
+    .qsr form{
+        flex-direction: column;
+        width: 100%;
+    }
 }
