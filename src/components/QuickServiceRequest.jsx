@@ -8,15 +8,15 @@ const QuickServiceRequest = () => {
     <div className='qsr'>
       <div className="txt-wrapper">
         <h3>Quick Service Request</h3>
-        <h2>Free Inspection Request</h2>
+        <h1>Free Inspection Request</h1>
       </div>
      
         <form action="">
           
-            <input type="text" name='name' placeholder='Enter Full Name' />
-            <input type="text" name='phone' placeholder='Enter Phone Number' />
+            <input autoComplete='off' type="text" name='name' placeholder='Enter Full Name' />
+            <input autoComplete='off' type="text" name='phone' placeholder='Enter Phone Number' />
        
-            <button>Send</button>
+            <button type='submit'>Send</button>
         
         </form>
      

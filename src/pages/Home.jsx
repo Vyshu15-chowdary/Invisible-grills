@@ -6,7 +6,7 @@ import QuickServiceRequest from '../components/QuickServiceRequest';
 
 const Home = () => {
   const ImgUrl = 'https://www.mgscreens.com/assets/img/invisible/inv1.jpg';
-  const heroText = 'Welcome To Home Page.';
+  const heroText = 'Vyshnavi Invisible Grills';
 
 
   return (
