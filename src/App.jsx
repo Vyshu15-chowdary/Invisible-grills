@@ -12,17 +12,18 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import useWindowWidth from './hooks/useWindowWidth'
 import { useState } from 'react'
+import NavbarPhone from './components/NavbarPhone'
 
 function App() {
-  const [showFirst, setShowFirst] = useState(true);
-  const toggleShow = () => setShowFirst((pre) => !pre);
   
+
   const width = useWindowWidth();
   const isPhone = width < 768;
 
   return (
     <>
-      <Navbar />
+    {isPhone?<NavbarPhone/>:<Navbar />}
+      
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
