@@ -25,6 +25,11 @@ const Services =[
     title:"Bird Net",
     image:"./birdnet.jpg",
     description:"Protect your home and workspace from bird intrusions with our high-quality Bird Net Installation Service. "
+  },
+  {
+    title:"Mosqito Net",
+    image:"./mosquito.jpg",
+    description:" Keep your home protected from mosquitoes and insects without compromising on fresh air and ventilation. Our Mosquito Net for Doors provides an effective, hygienic, and eco-friendly solution to prevent unwanted bugs from entering your living space."
   }
 ];
 
