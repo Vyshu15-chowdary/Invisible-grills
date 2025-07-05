@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-
+import '../css/ImageSlider.jsx';
 const images = [
 
     './img4.webp',
