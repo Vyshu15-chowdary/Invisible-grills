@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero';
 import '../css/Services.css'
+import ImageSlider from '../components/Imageslider';
 
 
 const Services =[
@@ -45,6 +46,7 @@ const Services =[
 
  const Service = () =>{
 return(
+  
 
   <section className='service-section'>
     <h2 className='service-title'>OUR SERVICES</h2>
@@ -58,10 +60,12 @@ return(
           </div>
         </div>
       ))}
-
+    <ImageSlider/>
     </div>
 
   </section>
+
+  
 )
  
  };
