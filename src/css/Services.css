@@ -10,6 +10,7 @@
   font-weight: bold;
   margin-bottom: 30px;
   color:rgb(144, 28, 36);
+  animation: animate-text 5s infinite;
 
 }
 .service-grid {
