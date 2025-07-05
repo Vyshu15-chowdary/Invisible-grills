@@ -1,48 +1,54 @@
 import React from 'react'
 import Hero from '../components/Hero';
 import '../css/Services.css'
-const Services = () => {
-  const ImgUrl = "https://cdn-ikpjmaj.nitrocdn.com/tpiOjaVkKiYlOPaZEGMJBhdGjCOUFngB/assets/images/optimized/rev-79ca70e/elelaurels.com/wp-content/uploads/2016/12/InvisGrilleBalcony2.jpg";
 
-  const heading = "Your Safety, Our Priority – Invisible Grills with a View";
-  return (
-    <>
-    <Hero  ImgUrl={ImgUrl} heading={heading}  />
 
-    <div className='services'>
-      <div className='header1'>
-        <h2>Premium Invisible Grills Installation & Customization</h2>
-         <p>At Vyshnavi Invisible Grills, we specialize in offering top-quality invisible grill solutions designed to enhance safety without compromising style or view.
-           Whether for homes,
-           high-rise apartments, offices, or commercial spaces — our grills blend modern aesthetics with the highest safety standards.
+const Services =[
+  {
+    title:"Balcony Invisible Grill",
+    image:"./balcony.jpg",
+    description:"Strong and sleek protection for open balconies with clear views"
+  },
 
-</p>
-      </div>
+  {
+    title:"window invisible grills",
+    image:"./window.avif",
+    description:"Secure your windows with rust-free,child-safe invisible grills"
+  },
 
-      <div className='service1'>
-        <h2>🏢 Residential Invisible Grills</h2>
-        <img src="./img3.webp" alt="img"></img>
-        <p>Secure your balconies, windows, and open spaces with our rust-proof and child-safe invisible grills. Ideal for apartments, villas, and gated communities.
+  {
+    title:"Staircase Invisible Grill",
+    image:"./staircase.jpg",
+    description:"Ensure safety on stair cases while maintaining a modern look"
+  },
+  {
+    title:"Bird Net",
+    image:"./birdnet.jpg",
+    description:"Protect your home and workspace from bird intrusions with our high-quality Bird Net Installation Service. "
+  }
+];
 
-          <b>Features:</b>
+ const Service = () =>{
+return(
 
-          2mm to 3mm high-tensile SS 316 marine-grade cables
-
-          Up to 300 kg tensile strength
-
-          Gap customization (2", 3", 4" as per safety needs)
-
-          Sleek, nearly invisible design
-
-          Corrosion-resistant and weatherproof</p>
-
-         
-      </div>
-
+  <section className='service-section'>
+    <h2 className='service-title'>OUR SERVICES</h2>
+    <div className='service-grid'>
+      {Services.map((Service,index) =>(
+        <div className='service-card' key={index}>
+          <img src ={Service.image} alt ={Service.title} className='service-image'/>
+          <div className='service-content'>
+            <h3>{Service.title}</h3>
+            <p>{Service.description}</p>
+          </div>
+        </div>
+      ))}
 
     </div>
-    </>
-  )
-}
 
-export default Services
+  </section>
+)
+ 
+ };
+
+export default Service;

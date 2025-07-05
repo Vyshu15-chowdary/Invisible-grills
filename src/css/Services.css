@@ -1,40 +1,47 @@
-.header1 h2{
-    
-    color:brown;
-    font-size:40px;
-    margin-left: 25px;
-    margin-bottom: 15px;
+.service-section{
 
+  padding: 40px;
+  background-color: #d7d2d2;
+  text-align: center;
 }
 
-.header1 p{
-
-    padding-left: 25px;
-    font-family:'georgia';
-    letter-spacing: 2px;
-}
-
-.service1{
-
-    position: relative;
+.service-title{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color:rgb(144, 28, 36);
 
 }
-
-.service1 img{
-
-    position:relative;
-    margin-top: 15px;
+.service-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
-.service1 p {
-    display: grid;
-    grid-column:3px;
-    padding: 12px;
-    margin-top:-100px;
-
+.service-card {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(239, 236, 236, 0.1);
+  transition: transform 0.3s ease;
 }
-
-.service1 span{
-
-    color:black;
-    
+.service-card:hover {
+  transform: translateY(-5px);
+}
+.service-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.service-content {
+  padding: 15px;
+}
+.service-content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.service-content p {
+  font-size: 14px;
+  color: #555;
 }
