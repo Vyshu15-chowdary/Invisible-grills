@@ -1,12 +1,12 @@
 import React,{useState} from 'react'
-import '../css/ImageSlider.jsx';
+import '../css/ImageSlider.css';
 const images = [
 
     './img4.webp',
     './img5.jpg',
-    './img6.jpg',
+    './img6.jpeg',
     './img7.jpg',
-    './img8.jpg'
+    './img8.jpg',
 ];
 
 const ImageSlider = () =>{
