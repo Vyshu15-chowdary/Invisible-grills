@@ -52,6 +52,8 @@ const heading = `Your Safety - Our Priority`;
 
  const Service = () =>{
 return(
+<>
+<Hero ImgUrl={ImgUrl} heading={heading} />
 
   <section className='service-section'>
     <h2 className='service-title'>OUR SERVICES</h2>
@@ -69,6 +71,7 @@ return(
     </div>
 
   </section>
+  </>
 )
  
  };
