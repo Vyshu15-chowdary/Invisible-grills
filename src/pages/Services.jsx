@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero';
 import '../css/Services.css'
+import ImageSlider from '../components/Imageslider';
 
 
 const Services =[
@@ -30,6 +31,16 @@ const Services =[
     title:"Mosqito Net",
     image:"./mosquito.jpg",
     description:" Keep your home protected from mosquitoes and insects without compromising on fresh air and ventilation. Our Mosquito Net for Doors provides an effective, hygienic, and eco-friendly solution to prevent unwanted bugs from entering your living space."
+  },
+  {
+    title:"Artificial Grass",
+    image:"./greenmat.jpg",
+    description:"Transform your space with lush, maintenance-free artificial grass that stays green all year round. Our artificial turf solutions are ideal for balconies, gardens, terraces, schools, playgrounds, and commercial spaces"
+  },
+  {
+    title:"Cloth Roof Hanger",
+    image:'./clothhanger.jpg',
+    description:"Maximize your drying space with our sleek and durable roof-mounted cloth hanger systems. Designed for modern homes, our hangers are ideal for balconies, utility areas, and indoor spaces—offering a convenient and space-saving solution for drying clothes."
   }
 ];
 
@@ -41,10 +52,6 @@ const heading = `Your Safety - Our Priority`;
 
  const Service = () =>{
 return(
-
-  
-  <>
-  <Hero ImgUrl={ImgUrl} heading={heading} />
 
   <section className='service-section'>
     <h2 className='service-title'>OUR SERVICES</h2>
@@ -58,12 +65,10 @@ return(
           </div>
         </div>
       ))}
-
+    <ImageSlider/>
     </div>
 
   </section>
-
-  </>
 )
  
  };
