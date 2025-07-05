@@ -35,6 +35,11 @@ const Services =[
     title:"Artificial Grass",
     image:"./greenmat.jpg",
     description:"Transform your space with lush, maintenance-free artificial grass that stays green all year round. Our artificial turf solutions are ideal for balconies, gardens, terraces, schools, playgrounds, and commercial spaces"
+  },
+  {
+    title:"Cloth Roof Hanger",
+    image:'./clothhanger.jpg',
+    description:"Maximize your drying space with our sleek and durable roof-mounted cloth hanger systems. Designed for modern homes, our hangers are ideal for balconies, utility areas, and indoor spaces—offering a convenient and space-saving solution for drying clothes."
   }
 ];
 
