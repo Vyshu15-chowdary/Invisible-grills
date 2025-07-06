@@ -1,7 +1,8 @@
 import React from 'react'
 import Hero from '../components/Hero';
 import '../css/Services.css'
-import ImageSlider from '../components/Featurecard';
+import Featurecard from '../components/Featurecard';
+
 
 
 const Services =[
@@ -70,7 +71,9 @@ return(
     </div>
   </section>
 
-    <ImageSlider/>
+  <Featurecard/>
+
+    
 
   </>
 )

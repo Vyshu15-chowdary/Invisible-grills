@@ -11,5 +11,7 @@ export const Featurecard = () => {
   )
 }
 
+export default Featurecard;
+
 
 
