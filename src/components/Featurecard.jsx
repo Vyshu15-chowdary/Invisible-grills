@@ -24,6 +24,15 @@ export const Featurecard = () => {
         </div>
       </div>
 
+      <div className='feature2'>
+        <img src="./img10.jpg"></img>
+        <div className='text'>
+          <h2></h2>
+          <p></p>
+        </div>
+
+      </div>
+
     </div>
   )
 }
