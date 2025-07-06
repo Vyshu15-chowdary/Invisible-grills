@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero';
 import '../css/Services.css'
-import ImageSlider from '../components/Imageslider';
+import ImageSlider from '../components/Featurecard';
 
 
 const Services =[
