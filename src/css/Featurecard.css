@@ -1,12 +1,35 @@
+.features{
+
+  background-color: rgba(192, 192, 192, 0.881);
+}
+
+
 .feature1 img{
 
-  width:45%;
+  width:30%;
   height:50%;
-  margin-top: 45px;
-  margin-left: 45px;
-  border-radius: 5px;
-  margin-bottom: 30px;
+  object-fit:fill;
+  margin-top:35px;
+  margin-bottom: 0;
+  padding-top:15px ;
+  float: right; 
+  margin-top: 0;
+  
+}
 
-  
-  
+.text h2{
+  color:rgb(99, 14, 14);
+  display: inline;
+  font-size: 35px;
+  padding-left: 25px;
+
+}
+
+.text p{
+
+  text-align:left;
+  font-size:20px;
+  padding: 30px;
+  position: relative;
+  font-family:'sans-serif';
 }
