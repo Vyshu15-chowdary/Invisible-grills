@@ -1,16 +1,15 @@
 import React from 'react'
 import "../css/navbar.css"
-const NavbarPhone = () => {
+const NavbarPhone = ({setIsActivePhoneNavbar}) => {
     return (
         <div className='navbar'>
             <div className="logo">
                 <h1>VIG</h1>
             </div>
 
-            <div className="icon">
-                <i className="fa-solid fa-bars"></i>
-                
-            </div>
+            
+                <i onClick={()=>setIsActivePhoneNavbar(true)}  className="fa-solid fa-bars"></i>
+           
         </div>
     )
 }
