@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 import Achievements from '../components/Achievements';
 import QuickServiceRequest from '../components/QuickServiceRequest';
+import WhyChooseUs from '../components/WhyChooseUs';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
     <>
       <Hero heading={heroText} ImgUrl={ImgUrl} />
       <QuickServiceRequest/>
+      <WhyChooseUs/>
       <Achievements/>
     </>
   )
