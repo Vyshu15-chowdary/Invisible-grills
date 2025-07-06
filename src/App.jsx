@@ -11,12 +11,13 @@ import CallMeButton from './components/CallMeButton'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import useWindowWidth from './hooks/useWindowWidth'
-// import { useState } from 'react'
+import { useState } from 'react'
 import NavbarPhone from './components/NavbarPhone'
 import ScrollToTop from './components/ScrollToTop'
+import PhoneNavContent from './components/PhoneNavContent'
 
 function App() {
-  
+  const [isActivePhoneNavbar, setIsActivePhoneNavbar] = useState(false);
 
   const width = useWindowWidth();
   const isPhone = width < 768;
@@ -24,7 +25,7 @@ function App() {
   return (
     <>
     <ScrollToTop/>
-    {isPhone?<NavbarPhone/>:<Navbar />}
+    {isPhone?<NavbarPhone setIsActivePhoneNavbar={setIsActivePhoneNavbar}/>:<Navbar />}
       
       <Routes>
         <Route path='/' element={<Home />} />
@@ -36,10 +37,11 @@ function App() {
       </Routes>
 
 
+
       <WhatsAppButton />
       <CallMeButton />
 
-
+      <PhoneNavContent isOpen={isActivePhoneNavbar} onClose={()=>{setIsActivePhoneNavbar(false)}}/>
       <Footer />
     </>
   )
