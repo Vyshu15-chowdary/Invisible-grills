@@ -67,10 +67,11 @@ return(
           </div>
         </div>
       ))}
-    <ImageSlider/>
     </div>
-
   </section>
+
+    <ImageSlider/>
+
   </>
 )
  
