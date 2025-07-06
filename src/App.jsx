@@ -13,6 +13,7 @@ import Footer from './components/Footer'
 import useWindowWidth from './hooks/useWindowWidth'
 // import { useState } from 'react'
 import NavbarPhone from './components/NavbarPhone'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <>
+    <ScrollToTop/>
     {isPhone?<NavbarPhone/>:<Navbar />}
       
       <Routes>
