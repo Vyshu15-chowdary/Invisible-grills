@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Featurecard.css'
+import {Check} from 'lucide-react'
 
 export const Featurecard = () => {
   return (
@@ -27,8 +28,40 @@ export const Featurecard = () => {
       <div className='feature2'>
         <img src="./img10.jpg"></img>
         <div className='text'>
-          <h2></h2>
-          <p></p>
+          <h2> key features of Invisible Grills:</h2>
+          <p>
+            <Check/>High-Tensile Strength
+          </p>
+          <p>
+            <Check/>Rust & Corrosion Resistant 
+          </p>
+
+          <p>
+            <Check/>Unobstructed View –
+          </p>
+          <p>
+            <Check/>Child & Pet Safety
+          </p>
+          <p>
+            <Check/>Elegant & Minimal Design
+          </p>
+          
+          <p>
+            <Check/>Customizable Installation
+          </p>
+          <p>
+            <Check/>Low Maintenance
+          </p>
+          <p>
+            <Check/>Anti-Burglary Option 
+          </p>
+          <p>
+            <Check/>Fire-Resistant 
+          </p>
+
+          <p>
+            <Check/>UV Protected Coating 
+          </p>
         </div>
 
       </div>
