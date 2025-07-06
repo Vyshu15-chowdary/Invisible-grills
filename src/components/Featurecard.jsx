@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/Featurecard.css'
 
 export const Featurecard = () => {
   return (
