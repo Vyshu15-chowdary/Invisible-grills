@@ -1,11 +1,11 @@
 import React from 'react'
 
-const WhyChooseUsCard = ({icon, title, description}) => {
+const WhyChooseUsCard = ({data}) => {
   return (
     <div className='why-choose-us-card'>
-        <i className={icon}></i>
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <i className={data.icon}></i>
+        <h3>{data.title}</h3>
+        <p>{data.description}</p>
     </div>
   )
 }
