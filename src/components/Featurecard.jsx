@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/Featurecard.css'
-import {Check} from 'lucide-react'
+
 
 export const Featurecard = () => {
   return (
@@ -29,39 +29,50 @@ export const Featurecard = () => {
         <img src="./img10.jpg"></img>
         <div className='text'>
           <h2> key features of Invisible Grills:</h2>
-          <p>
-            <Check/>High-Tensile Strength
-          </p>
-          <p>
-            <Check/>Rust & Corrosion Resistant 
-          </p>
+          <div>
+            <i className='fa-solid fa-circle-check'></i>
+            <span>  High-Tensile Strength </span>
+          </div>
+          <div>
+            <i  className='fa-solid fa-circle-check'> </i>
+           <span>  Rust & Corrosion Resistant </span>
+          </div>
 
-          <p>
-            <Check/>Unobstructed View –
-          </p>
-          <p>
-            <Check/>Child & Pet Safety
-          </p>
-          <p>
-            <Check/>Elegant & Minimal Design
-          </p>
+          <div>
+            <i  className='fa-solid fa-circle-check'> </i>
+           <span>   Unobstructed View – </span>
+          </div>
           
-          <p>
-            <Check/>Customizable Installation
-          </p>
-          <p>
-            <Check/>Low Maintenance
-          </p>
-          <p>
-            <Check/>Anti-Burglary Option 
-          </p>
-          <p>
-            <Check/>Fire-Resistant 
-          </p>
+          <div>
+           <i  className='fa-solid fa-circle-check'> </i>
+          <span>  Child & Pet Safety</span>
+          </div>
+          <div>
+           <i  className='fa-solid fa-circle-check'> </i>
+           <span>  Elegant & Minimal Design </span>
+         </div>
+          
+         <div>
+            <i className='fa-solid fa-circle-check'></i>
+            <span> Customizable Installation </span>
+          </div>
+            <div>
+              <i  className='fa-solid fa-circle-check'></i>
+          <span> Low Maintenance </span>
+           </div>
+         <div>
+          <i  className='fa-solid fa-circle-check'></i>
+        <span> Anti-Burglary Option </span>
+          </div>
+          <div>
+            <i  className='fa-solid fa-circle-check'></i>
+         <span>   Fire-Resistant </span>
+          </div>
 
-          <p>
-            <Check/>UV Protected Coating 
-          </p>
+         <div>
+          <i  className='fa-solid fa-circle-check'></i>
+       <span>  UV Protected Coating </span>
+          </div>
         </div>
 
       </div>

@@ -21,7 +21,7 @@
   color:rgb(99, 14, 14);
   display: inline;
   font-size: 35px;
-  padding-left: 25px;
+  
 
 }
 
@@ -44,26 +44,32 @@
   margin-bottom: 20px;
  
 }
-.feature2 .text p{
-   
-  font-family:'sans-serif';
-  word-spacing: 5px;
-  padding-left: 20px;
-  margin-top: 5px;
-  padding-bottom: 0;
+
+ .feature2 img{
+
+  animation: slideIn 5s;
+ 
+}
+@keyframes slideIn {
+  0%{
+    transform: translateX(-50%);
+  }
+  100%{
+   transform: translateX(0);
+  }
+}
+  div i span{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+ float: right;
+ flex-shrink: initial;
   
  
 }
 
-.feature2 h2{
+div i{
 
-  color:rgb(100, 10, 10);
-  font-size: 35px;
-  padding-left: 10px;
-}
-
-.feature2 p svg{
-
-  color:brown;
-  padding-left:1px;
+  margin: 10px;
+  color: rgb(58, 123, 215);
 }
