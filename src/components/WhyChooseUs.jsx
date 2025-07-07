@@ -1,5 +1,6 @@
 import React from 'react'
 import WhyChooseUsCard from './WhyChooseUsCard'
+import "../css/whyChooseUs.css"
 
 const WhyChooseUs = () => {
     const benefits = [
@@ -39,6 +40,8 @@ const WhyChooseUs = () => {
             <div className="choose-us-header">
                 <h3>Why Choose Us</h3>
                 <h2>Reasons For People Choosing Us</h2>
+
+                <hr />
             </div>
 
 
