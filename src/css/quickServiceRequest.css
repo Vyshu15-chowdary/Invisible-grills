@@ -3,6 +3,8 @@
     height: 25vh;
     margin: 0 auto;
     background-color: #fff;
+  background-color: #ece5e5;
+
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.263);
     display: flex;

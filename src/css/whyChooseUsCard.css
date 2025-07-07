@@ -1,0 +1,31 @@
+
+
+.why-choose-us-card {
+    padding: 3rem 2rem;
+    min-width: 280px;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.372);
+    margin: 1rem 0;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.why-choose-us-card:hover{
+    transform: translateY(-7px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.372);
+
+}
+
+.why-choose-us-card i {
+    font-size: 30px;
+    color: #8f1428;
+
+}
