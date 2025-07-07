@@ -87,3 +87,17 @@
     cursor: pointer;
     transform: translateY(-5px);
 }
+
+
+@media screen and (max-width: 768px) {
+    .contact-form{
+        padding: 1rem;
+    }
+ .contact-form-content .contact-form-img{
+    width: 100%;
+  }  
+
+  .contact-form-content form{
+    width: 100%;
+  }
+}

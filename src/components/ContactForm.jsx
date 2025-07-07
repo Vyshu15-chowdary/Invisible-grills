@@ -36,7 +36,7 @@ const ContactForm = () => {
                     <form ref={form} >
                         <div className="contact-form-header">
                             <h2>Get In Touch</h2>
-    <hr />
+                            <hr />
 
                         </div>
 
