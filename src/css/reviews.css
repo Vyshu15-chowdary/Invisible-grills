@@ -60,7 +60,7 @@
     object-fit: cover;
 }
 
-.review .stars {
+.review .stars i{
     font-size: 30px;
     color: #8f1428;
 }
