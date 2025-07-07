@@ -5,8 +5,10 @@
 
 .contact-form-content {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 
 .contact-form-content .contact-form-img {
@@ -27,7 +29,7 @@
 }
 
 .contact-form-content .contact-form-header {
-    padding:1rem .5rem;
+    padding: 1rem .5rem;
     background-color: #8f1428;
     color: #fff;
 
@@ -37,8 +39,6 @@
 .contact-form-content .form-features {
     background-color: #fff;
     padding: 1rem;
-
-
 }
 
 .form-features .form-control {
@@ -70,7 +70,7 @@
     padding: .5rem;
 }
 
-.btn-control button{
+.btn-control button {
     height: 50px;
     width: 150px;
     border-radius: 50px;
@@ -82,7 +82,7 @@
     transition: all .5s ease-in-out;
 }
 
-.btn-control button:hover{
+.btn-control button:hover {
     background-color: #a41e34;
     cursor: pointer;
     transform: translateY(-5px);
