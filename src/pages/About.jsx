@@ -1,8 +1,14 @@
 import React from 'react'
+import Hero from "../components/Hero"
 import '../css/About.css'
+
 const About = () => {
+  const ImgUrl = "https://deepthiinvisiblegrills.com/wp-content/uploads/elementor/thumbs/Contact-for-Premium-Invisible-Grills-for-Balcony-r1nc8dpk4aabbcbwtxwtoay9mqac6dhsyy1y1lrry8.webp";
+  const heading = "About Us";
+
   return (
     <>
+    <Hero heading={heading} ImgUrl={ImgUrl}/>
       <section className='About'>
         <div className='content'>
           <div className='title'>
