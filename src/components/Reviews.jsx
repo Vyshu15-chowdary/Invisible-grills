@@ -1,8 +1,9 @@
 import React from 'react'
+import "../css/reviews.css"
 
 const Reviews = () => {
     const reviews = [
-      
+
         {
             img: "https://static.vecteezy.com/system/resources/thumbnails/048/926/084/small_2x/silver-membership-icon-default-avatar-profile-icon-membership-icon-social-media-user-image-illustration-vector.jpg",
             name: "Rohit Kumar",
@@ -10,7 +11,7 @@ const Reviews = () => {
         },
         {
             img: "https://static.vecteezy.com/system/resources/thumbnails/048/926/084/small_2x/silver-membership-icon-default-avatar-profile-icon-membership-icon-social-media-user-image-illustration-vector.jpg",
-            name: "Anusha",
+            name: "Gayatri",
             review: "I love how sleek and modern the invisible grills look. They are sturdy and give me peace of mind for my kids"
         },
         {
@@ -30,7 +31,16 @@ const Reviews = () => {
                 {
                     reviews.map((r, i) => (
                         <div key={i} className='review'>
-                            <img src={r.img} alt={r.name} />
+                            <div className="review-img">
+                                <img src={"https://t4.ftcdn.net/jpg/02/34/61/79/360_F_234617921_p1AGQkGyEl8CSzwuUI74ljn6IZXqMUf2.jpg"} alt={r.name} />
+                            </div>
+                            <div className="stars">
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                                <i className="fa-solid fa-star"></i>
+                            </div>
                             <h3>{r.name}</h3>
                             <p>{r.review}</p>
                         </div>
