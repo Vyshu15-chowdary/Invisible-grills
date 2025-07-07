@@ -12,7 +12,7 @@ const Reviews = () => {
         {
             img: "https://static.vecteezy.com/system/resources/thumbnails/048/926/084/small_2x/silver-membership-icon-default-avatar-profile-icon-membership-icon-social-media-user-image-illustration-vector.jpg",
             name: "Gayatri",
-            review: "I love how sleek and modern the invisible grills look. They are sturdy and give me peace of mind for my kids"
+            review: "I love how sleek and modern the invisible grills look. They are sturdy and give me peace of mind for my kids."
         },
         {
             img: "https://static.vecteezy.com/system/resources/thumbnails/048/926/084/small_2x/silver-membership-icon-default-avatar-profile-icon-membership-icon-social-media-user-image-illustration-vector.jpg",
