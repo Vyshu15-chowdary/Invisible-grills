@@ -73,3 +73,28 @@ div i{
   margin: 10px;
   color: rgb(58, 123, 215);
 }
+
+.flexcard-1{
+
+  background-color: rgb(109, 3, 29);
+  width:300px;
+  height:400px;
+  margin-top:50px;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-style:ridge;
+  border-color: rgb(173, 6, 6);
+  border-width: 5px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(23, 18, 18, 0.1);
+  overflow: scroll;
+}
+
+.flexcard-1 h2{
+  color: rgb(19, 11, 11);
+  
+}
+.flexcard-1 p{
+  color:azure;
+}

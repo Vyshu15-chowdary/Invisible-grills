@@ -4,6 +4,7 @@ import '../css/Featurecard.css'
 
 export const Featurecard = () => {
   return (
+    <>
     <div className='features'>
       <div className='feature1'>
         <img src="./img9.jpg"></img>
@@ -78,6 +79,31 @@ export const Featurecard = () => {
       </div>
 
     </div>
+
+ <div id ="flex-car">
+  <div className='flexcard-1'>
+    <h2>Invisible material</h2>
+    <p>Invisible grills are made of high-tensile stainless steel cables coated with a protective nylon or PVC layer.
+
+    The most common material used is SS316 stainless steel, known for its anti-rust and corrosion-resistant properties.
+
+     These cables are extremely durable, heat-resistant, and can withstand strong impacts and tension.
+
+      The coating makes them weatherproof and safe for both indoor and outdoor installations.
+
+       Despite their strength, they maintain a slim, sleek, and nearly invisible appearance, blending seamlessly with modern architecture
+
+
+
+</p>
+
+  </div>
+
+
+ </div>
+
+
+</>
   )
 }
 
