@@ -2,7 +2,6 @@
 
 .why-choose-us-card {
     padding: 3rem 2rem;
-    min-width: 280px;
     width: 30%;
     text-align: center;
     display: flex;
@@ -29,3 +28,10 @@
     color: #8f1428;
 
 }
+
+@media screen and (max-width:480px) {
+    .why-choose-us-card{
+        width: 100%;
+    }
+}
+
