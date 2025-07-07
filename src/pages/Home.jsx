@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Achievements from '../components/Achievements';
 import QuickServiceRequest from '../components/QuickServiceRequest';
 import WhyChooseUs from '../components/WhyChooseUs';
+import Reviews from '../components/Reviews';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <QuickServiceRequest/>
       <WhyChooseUs/>
       <Achievements/>
+      <Reviews/>
     </>
   )
 }
