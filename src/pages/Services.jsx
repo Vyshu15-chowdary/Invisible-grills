@@ -92,7 +92,7 @@ const Service = () => {
           </div>
         </div>
 
-        <div className='work'>
+        <div className='work reverse'>
           <div className="work-content">
             <h3>✅ Customized Safety for Every Space</h3>
             <p>At Vyshnavi Invisible Grills, we understand that every home and space is unique.
