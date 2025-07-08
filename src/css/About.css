@@ -2,3 +2,34 @@
     padding: 2rem;
     background-color: aliceblue;
 }
+
+.about-wrapper{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+}
+
+.about-wrapper .txt-wrapper{
+    width: 50%;
+    border: 1px solid;
+
+}
+.about-wrapper .founder-wrapper{
+    width: 30%;
+    border: 1px solid;
+    text-align: center;
+
+}
+
+.founder-wrapper .founder-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 1rem auto;
+}
+.founder-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
