@@ -1,0 +1,41 @@
+.gallery {
+  background: #b41414;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 100px 0 50px 0;
+}
+.gallery h1 {
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  margin: 0 auto;
+  letter-spacing: 1px;
+}
+.gallery .images {
+  display: flex;
+  gap: 15px;
+  max-width: 1400px;
+  min-width: 1400px;
+  margin: 0 auto;
+}
+.gallery .images div {
+  flex: 2;
+}
+.gallery .images img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 1520px) {
+  .gallery {
+    padding: 50px 20px 50px 20px;
+  }
+  .gallery .images {
+    min-width: 100%;
+    gap: 25px;
+  }
+}
+@media (max-width: 1200px) {
+  .gallery h1 {
+    font-size: 1.6rem;
+  }
+}

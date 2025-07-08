@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero';
 import '../css/Services.css'
+import RawMaterial from '../components/RawMaterial.jsx';
 
 
 
@@ -70,12 +71,12 @@ return(
       ))}
     </div>
   </section>
-
-  
+       
+  <RawMaterial/>
 
     
-
   </>
+  
 )
  
  };
