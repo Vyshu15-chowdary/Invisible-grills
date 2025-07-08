@@ -74,6 +74,79 @@ return(
        
   <RawMaterial/>
 
+  <section className='images'>
+   <div>
+    <h3>✅ Customized Safety for Every Space</h3>
+    <p>At Vyshnavi Invisible Grills, we understand that every home and space is unique.
+       That’s why we offer fully customized safety solutions tailored to your specific needs.
+        Whether it's a balcony in a high-rise apartment, a staircase in a duplex, or ventilation ducts in a commercial space, 
+        our invisible grills are designed to fit seamlessly without compromising your architectural style. With flexible installation options, rust-resistant materials, and child-safe spacing,
+         we ensure maximum protection with minimal visual impact. You can also choose from various finishes and orientations to match your interior or exterior design, giving you both safety and style in one solution.
+
+</p>
+<div>
+  <img src="./img5.jpg" alt="img" width={400} height={300}/>
+</div>
+   </div>
+
+    <div>
+    <h3>✅ Customized Safety for Every Space</h3>
+    <p>At Vyshnavi Invisible Grills, we understand that every home and space is unique.
+       That’s why we offer fully customized safety solutions tailored to your specific needs.
+        Whether it's a balcony in a high-rise apartment, a staircase in a duplex, or ventilation ducts in a commercial space, 
+        our invisible grills are designed to fit seamlessly without compromising your architectural style. With flexible installation options, rust-resistant materials, and child-safe spacing,
+         we ensure maximum protection with minimal visual impact. You can also choose from various finishes and orientations to match your interior or exterior design, giving you both safety and style in one solution.
+
+</p>
+<div>
+  <img src="./img7.jpg" alt="img" width={400} height={300}/>
+</div>
+   </div>
+
+    <div>
+    <h3>✅ Customized Safety for Every Space</h3>
+    <p>At Vyshnavi Invisible Grills, we understand that every home and space is unique.
+       That’s why we offer fully customized safety solutions tailored to your specific needs.
+        Whether it's a balcony in a high-rise apartment, a staircase in a duplex, or ventilation ducts in a commercial space, 
+        our invisible grills are designed to fit seamlessly without compromising your architectural style. With flexible installation options, rust-resistant materials, and child-safe spacing,
+         we ensure maximum protection with minimal visual impact. You can also choose from various finishes and orientations to match your interior or exterior design, giving you both safety and style in one solution.
+
+</p>
+<div>
+  <img src="./img8.jpg" alt="img" width={400} height={300}/>
+</div>
+   </div>
+
+    <div>
+    <h3>✅ Customized Safety for Every Space</h3>
+    <p>At Vyshnavi Invisible Grills, we understand that every home and space is unique.
+       That’s why we offer fully customized safety solutions tailored to your specific needs.
+        Whether it's a balcony in a high-rise apartment, a staircase in a duplex, or ventilation ducts in a commercial space, 
+        our invisible grills are designed to fit seamlessly without compromising your architectural style. With flexible installation options, rust-resistant materials, and child-safe spacing,
+         we ensure maximum protection with minimal visual impact. You can also choose from various finishes and orientations to match your interior or exterior design, giving you both safety and style in one solution.
+
+</p>
+<div>
+  <img src="./img4.webp" alt="img" width={400} height={300}/>
+</div>
+   </div>
+
+    <div>
+    <h3>✅ Customized Safety for Every Space</h3>
+    <p>At Vyshnavi Invisible Grills, we understand that every home and space is unique.
+       That’s why we offer fully customized safety solutions tailored to your specific needs.
+        Whether it's a balcony in a high-rise apartment, a staircase in a duplex, or ventilation ducts in a commercial space, 
+        our invisible grills are designed to fit seamlessly without compromising your architectural style. With flexible installation options, rust-resistant materials, and child-safe spacing,
+         we ensure maximum protection with minimal visual impact. You can also choose from various finishes and orientations to match your interior or exterior design, giving you both safety and style in one solution.
+
+</p>
+<div>
+  <img src="./img6.jpeg" alt="img" width={400} height={300}/>
+</div>
+   </div>
+
+  </section>
+
     
   </>
   
