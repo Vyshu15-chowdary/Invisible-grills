@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero';
 import '../css/Services.css'
-import Featurecard from '../components/Featurecard';
+
 
 
 
@@ -71,7 +71,7 @@ return(
     </div>
   </section>
 
-  <Featurecard/>
+  
 
     
 
