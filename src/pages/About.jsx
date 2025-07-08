@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from "../components/Hero"
+import WhyChooseUs from "../components/WhyChooseUs"
 import '../css/about.css'
 
 const About = () => {
@@ -32,6 +33,7 @@ const About = () => {
       </div>
     </div>
       
+      <WhyChooseUs/>
     </>
 
 
