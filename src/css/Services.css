@@ -81,3 +81,33 @@
   margin-top: -50%;
  
 }
+
+
+/* // Rajdev Yadav  */
+.works{
+  padding: 2rem;
+}
+.work{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 100%;
+  height: 45vh;
+  border: 1px solid;
+  margin-bottom: 2rem;
+}
+.work.reverse{
+  flex-direction: row-reverse;
+}
+.work-content{
+  width: 50%;
+}
+.work-img{
+  width: 40%;
+  height: 100%;
+}
+.work-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

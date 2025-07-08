@@ -1,6 +1,7 @@
 import React from 'react'
 import GoogleMap from '../components/GoogleMap'
 import Hero from '../components/Hero';
+import Achievements from "../components/Achievements.jsx"
 import ContactForm from '../components/ContactForm.jsx';
 
 const Contact = () => {
@@ -13,6 +14,7 @@ const Contact = () => {
     <Hero ImgUrl={ImgUrl} heading={heading}/>
  
     <ContactForm/>
+    <Achievements/>
     <GoogleMap/>
     </>
   )
