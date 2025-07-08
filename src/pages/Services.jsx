@@ -77,7 +77,7 @@ const Service = () => {
       <section className='works'>
         <div className='work'>
           <div className="work-content">
-            <h3>✅ Customized Safety for Every Space</h3>
+            <h2>✅ Customized Safety for Every Space</h2>
             <p>At Vyshnavi Invisible Grills, we understand that every home and space is unique.
               That’s why we offer fully customized safety solutions tailored to your specific needs.
               Whether it's a balcony in a high-rise apartment, a staircase in a duplex, or ventilation ducts in a commercial space,
@@ -92,14 +92,11 @@ const Service = () => {
           </div>
         </div>
 
-        <div className='work reverse'>
+        <div className='work left'>
           <div className="work-content">
-            <h3>✅ Customized Safety for Every Space</h3>
-            <p>At Vyshnavi Invisible Grills, we understand that every home and space is unique.
-              That’s why we offer fully customized safety solutions tailored to your specific needs.
-              Whether it's a balcony in a high-rise apartment, a staircase in a duplex, or ventilation ducts in a commercial space,
-              our invisible grills are designed to fit seamlessly without compromising your architectural style. With flexible installation options, rust-resistant materials, and child-safe spacing,
-              we ensure maximum protection with minimal visual impact. You can also choose from various finishes and orientations to match your interior or exterior design, giving you both safety and style in one solution.
+            <h2>🌿 Artificial Grass Installation</h2>
+            <p>Transform your outdoor and indoor spaces with our premium-quality artificial grass solutions. Designed to look and feel like natural grass, our synthetic turf is ideal for gardens, balconies, terraces, playgrounds, and commercial spaces. It requires minimal maintenance, stays green year-round, and is resistant to weather, wear, and pests. Our artificial grass is pet-friendly, child-safe, and environmentally sustainable, making it a perfect choice for hassle-free landscaping.
+               Enjoy a lush, green look without the need for watering, mowing, or fertilizing
             </p>
           </div>
 
@@ -110,29 +107,27 @@ const Service = () => {
 
         <div className='work'>
           <div className="work-content">
-            <h3>✅ Customized Safety for Every Space</h3>
-            <p>At Vyshnavi Invisible Grills, we understand that every home and space is unique.
-              That’s why we offer fully customized safety solutions tailored to your specific needs.
-              Whether it's a balcony in a high-rise apartment, a staircase in a duplex, or ventilation ducts in a commercial space,
-              our invisible grills are designed to fit seamlessly without compromising your architectural style. With flexible installation options, rust-resistant materials, and child-safe spacing,
-              we ensure maximum protection with minimal visual impact. You can also choose from various finishes and orientations to match your interior or exterior design, giving you both safety and style in one solution.
-
+            <h2>🧰 Invisible Grill Fitting Trainer</h2>
+            <p>Our Invisible Grill Fitting Trainer is a highly skilled professional with hands-on expertise in the safe and precise installation of invisible grills.
+               With in-depth knowledge of advanced fitting techniques, measurements, safety protocols, and customized installations, the trainer ensures that every trainee gains the technical confidence to handle real-world projects. Whether you’re new to the field or looking to upgrade your skills,
+               our trainer provides step-by-step guidance, live demos, and practical tips to make you industry-ready.
             </p>
           </div>
 
           <div className='work-img'>
-            <img src="./img8.jpg" alt="img"  />
+            <img src="./trainedworker.jpg" alt="img"  />
           </div>
         </div>
 
-        <div className='work'>
+        <div className='work left'>
           <div className="work-content">
-            <h3>✅ Customized Safety for Every Space</h3>
-            <p>At Vyshnavi Invisible Grills, we understand that every home and space is unique.
-              That’s why we offer fully customized safety solutions tailored to your specific needs.
-              Whether it's a balcony in a high-rise apartment, a staircase in a duplex, or ventilation ducts in a commercial space,
-              our invisible grills are designed to fit seamlessly without compromising your architectural style. With flexible installation options, rust-resistant materials, and child-safe spacing,
-              we ensure maximum protection with minimal visual impact. You can also choose from various finishes and orientations to match your interior or exterior design, giving you both safety and style in one solution.
+            <h2>🌦️ Weather & Rust Resistant:</h2>
+            <p>Our invisible grills are built using high-tensile, marine-grade stainless steel coated with a protective layer that resists rust and corrosion.
+               Whether exposed to heavy rain, intense sunlight, or coastal humidity,
+                these grills are engineered to withstand extreme weather conditions without losing strength or appearance.
+                 This ensures long-lasting durability, safety, and a clean, modern look—no matter the environment.
+
+
 
             </p>
           </div>
@@ -144,13 +139,11 @@ const Service = () => {
 
         <div className='work'>
           <div className="work-content">
-            <h3>✅ Customized Safety for Every Space</h3>
-            <p>At Vyshnavi Invisible Grills, we understand that every home and space is unique.
-              That’s why we offer fully customized safety solutions tailored to your specific needs.
-              Whether it's a balcony in a high-rise apartment, a staircase in a duplex, or ventilation ducts in a commercial space,
-              our invisible grills are designed to fit seamlessly without compromising your architectural style. With flexible installation options, rust-resistant materials, and child-safe spacing,
-              we ensure maximum protection with minimal visual impact. You can also choose from various finishes and orientations to match your interior or exterior design, giving you both safety and style in one solution.
-
+            <h2>Uninterrupted Views, Maximum Safety</h2>
+            <p>
+              Enjoy the perfect balance of safety and aesthetics with our invisible grills. Designed using ultra-thin, high-strength stainless steel cables,
+               they provide maximum protection without blocking your view. Unlike traditional iron grills,
+               our invisible grills blend seamlessly with your surroundings, offering a clean and modern look while keeping your loved ones safe. Whether it's a high-rise balcony or a large window, you get clear, unobstructed views with complete peace of mind.
             </p>
           </div>
 
