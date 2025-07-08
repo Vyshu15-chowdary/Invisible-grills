@@ -13,43 +13,47 @@ const About = () => {
       <Hero heading={heading} ImgUrl={ImgUrl} />
 
       <div className="about-us">
-        <div className="about-content">
+        <div className="about-wrapper">
+          <div className="txt-wrapper">
 
-          <h2>About Us?</h2>
+            <h2>What We Do?</h2>
+            <hr />
 
-          <div className="about-wrapper">
-            <div className="txt-wrapper">
-              <p>At Vyshnavi Invisible Grills, we redefine safety with elegance. <br />
-                Specializing in high-quality invisible grill installations,
-                we offer modern, secure, and stylish solutions for : </p>
+            <p>At Vyshnavi Invisible Grills, we redefine safety with elegance. 
+              Specializing in high-quality invisible grill installations,
+              we offer modern, secure, and stylish solutions for : </p>
 
-              <ul>
-                <li>Home</li>
-                <li>Apartments</li>
-                <li>Balconies</li>
-                <li>Windows</li>
-                <li>Commercial Spaces</li>
-              </ul>
-            </div>
+            <ul>
+              <li>Home</li>
+              <li>Apartments</li>
+              <li>Balconies</li>
+              <li>Windows</li>
+              <li>Commercial Spaces</li>
+            </ul>
 
-            <div className="founder-wrapper">
-              <div className="founder-img">
-                <img src="https://t4.ftcdn.net/jpg/02/34/61/79/360_F_234617921_p1AGQkGyEl8CSzwuUI74ljn6IZXqMUf2.jpg" alt="" />
-              </div>
-              <h3>Vyshnavi Yendluri</h3>
-
-              <p>Contact Me</p>
-              <p>+91 90525 85999</p>
-            </div>
           </div>
 
-          {/* <p>  Our invisible grills are made from premium-grade stainless steel coated with nylon for added durability,</p>
-            <p>  strength, and rust-resistance—ensuring safety without compromising your view.
-              With a commitment to excellence and customer satisfaction,
-              we tailor every project to your needs, providing sleek protection for your loved ones—especially
-              children and pets—while enhancing the aesthetics of your living space.</p> */}
+          <div className="founder">
+            <div className="founder-wrapper">
+              <div className="founder-img">
+                <img src="https://avatars.githubusercontent.com/u/177138807?v=4" alt="" />
+              </div>
+
+              <div className="founder-info">
+                <h2>Vyshnavi Yendluri</h2>
+                <p>Founder</p>
+              </div>
+            </div>
+            <hr />
+            <div className="founder-contact">
+              <h3>Contact Me</h3>
+              <p><i className="fa-solid fa-phone-volume"></i> +91 90525 85999</p>
+              <p><i className="fa-solid fa-envelope"></i> vyshnavi@gmail.com</p>
+            </div>
+          </div>
         </div>
       </div>
+
 
       <WhyChooseUs />
     </>
