@@ -10,7 +10,6 @@
 
 .about-wrapper .txt-wrapper {
     width: 50%;
-    /* border: 1px solid; */
 color: #444;
 }
 
@@ -23,13 +22,13 @@ color: #444;
 .txt-wrapper ul{
     padding: 1rem 2rem;
 }
+
 .about-wrapper .founder{
     width: 30%;
-    /* border: 1px solid; */
     color: #444;
 
 }
-.about-wrapper .founder-wrapper {
+.founder .founder-wrapper {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -67,4 +66,20 @@ color: #444;
 .founder-contact p i{
     font-size: 18px;
     margin-right: .5rem;
+}
+
+@media screen and (max-width:768px) {
+    .about-wrapper{
+        flex-direction: column;
+    }
+    .about-wrapper .txt-wrapper{
+        width: 100%;
+    }
+    .about-wrapper .founder{
+        width: 100%;
+    }
+    .founder .founder-wrapper{
+        flex-direction: column;
+        padding: 1rem 0;
+    }
 }
