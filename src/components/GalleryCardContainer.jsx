@@ -1,5 +1,6 @@
 import React from 'react'
 import GalleryCard from './GalleryCard'
+import "../css/galleryCardContainer.css"
 
 const GalleryCardContainer = ({items}) => {
   return (
