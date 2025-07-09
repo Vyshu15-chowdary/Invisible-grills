@@ -9,12 +9,13 @@ import '../css/Gallery.css';
   const images = [
         './CH1.jpg',
         './CH2.webp',
-        './CH3.jpg',
+        
         './CH4.webp',
-        './CH5.jpg',
+        
         './CH6.webp',
         './CH7.jpg',
-        './CH8.webp'
+        './CH8.jpg'
+        
   ];
 
 
@@ -41,8 +42,9 @@ const Gallery = () => {
     <Hero ImgUrl={ImgUrl} heading={heading}/>
 
     <div className ='Gallery'>
-      <div className='gallery-grid'>
+      
         <h1>Cloth Drying Ceiling Hanger Products</h1>
+        <div className='gallery-grid'>
         <div className='Cloth Hangers'>
           {images.map((src,index)=>(
             <div key ={index} className='image-card'>
