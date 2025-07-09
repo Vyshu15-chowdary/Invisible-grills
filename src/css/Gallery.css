@@ -3,13 +3,12 @@
     max-width: 1200px;
     margin: auto;
     padding: 20px;
-    background:linear-gradient(rgb(44, 36, 36) 10%,rgb(93, 29, 29));
    
     
 
 }
 .Gallery h2 {
-    color: rgb(200, 191, 191);
+    color: rgb(161, 6, 6);
     margin-top: 10%;
     margin-bottom: 10%;
     text-align: center;
@@ -31,7 +30,7 @@
 .image-card {
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(20, 1, 1, 0.1);
   transition: transform 0.3s ease;
   margin-left: -20px;
   justify-content: space-between;
