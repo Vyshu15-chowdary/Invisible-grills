@@ -115,7 +115,8 @@ const Service = () => {
           </div>
 
           <div className='work-img'>
-            <img src="./trainedworker.jpg" alt="img"  />
+            {/* <img  src="./trainedworker.jpg" alt="img"  /> */}
+            <img  src="https://www.shutterstock.com/image-vector/carpenter-his-son-do-craft-600nw-1786891685.jpg" alt="img"  />
           </div>
         </div>
 

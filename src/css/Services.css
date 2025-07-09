@@ -91,8 +91,15 @@
   border-radius: 5px;
 }
 
+
 .work-img img{
-  animation: slideIn 5s ease-in-out;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.work-img img{
+  animation: slideIn .5s ease-in-out;
 }
 
 @keyframes slideIn {
@@ -104,10 +111,9 @@
     transform: translatex(0);
   }
 }
-.work-img img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+
+.work-img img.cntn{
+  object-fit: contain;
 }
 .work h2{
   color:#5a0f0f;
