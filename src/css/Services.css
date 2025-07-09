@@ -1,14 +1,14 @@
-.service-section{
+.service-section {
   padding: 2rem;
   background-color: #e3e0e0;
   text-align: center;
 }
 
-.service-title{
+.service-title {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 30px;
-  color:#901c24;
+  color: #901c24;
 }
 
 
@@ -19,6 +19,7 @@
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .service-card {
   cursor: pointer;
   margin-bottom: 2rem;
@@ -29,11 +30,13 @@
   box-shadow: 0 4px 10px #36323249;
   transition: transform 0.3s ease;
 }
+
 .service-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px #36323249;
 
 }
+
 .service-image {
   width: 100%;
   height: 200px;
@@ -41,7 +44,7 @@
 }
 
 .service-content {
-  padding:15px;
+  padding: 15px;
 }
 
 .service-content h3 {
@@ -51,7 +54,7 @@
   text-transform: capitalize;
 }
 
-.service-content hr{
+.service-content hr {
   margin-bottom: .5rem;
 }
 
@@ -64,70 +67,94 @@
 
 
 /*---alternate image and content---*/
-.works{
+.works {
   padding: 2rem;
 }
-.work{
+
+.work {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   width: 100%;
   height: 45vh;
- 
   margin-bottom: 2rem;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px #36323249;
+  transition: all .5s ease;
 }
-.work.left{
+
+.work:hover {
+  box-shadow: 0 8px 16px #36323249;
+  transform: translateY(-7px);
+  cursor: pointer;
+}
+
+.work.left {
   flex-direction: row-reverse;
 }
-.work-content{
+
+.work-content {
   width: 50%;
 }
-.work-img{
+
+
+
+.work-content hr {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #901c24;
+  margin: .5rem 0;
+}
+
+.work-img {
   width: 40%;
   height: 100%;
-  border-style:groove;
   border-radius: 5px;
 }
 
 
-.work-img img{
+.work-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.work-img img{
-  animation: slideIn .5s ease-in-out;
-}
 
-@keyframes slideIn {
-
-  0%{
-    transform:translatex(-100%);
-  }
-  100%{
-    transform: translatex(0);
-  }
-}
-
-.work-img img.cntn{
-  object-fit: contain;
-}
-.work h2{
-  color:#5a0f0f;
+.work h2 {
+  color: #901c24;
   padding-top: 10px;
 
 }
 
 .work p {
-
+  color: #444;
   padding-top: 10px;
 }
 
 
 /* // Media Query  */
 @media screen and (max-width:768px) {
-  .service-card{
+  .service-card {
     width: 100%;
+  }
+
+  .work {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .work.left {
+    flex-direction: column;
+  }
+
+  .work-content {
+    width: 100%;
+  }
+
+  .work-img {
+    width: 100%;
+    height: 35vh;
+    margin-top: 1rem;
   }
 }
