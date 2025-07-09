@@ -1,7 +1,27 @@
-.gallery-card-container{
+.gallery-card-container {
+    background-color: #f1f1f1;
+}
+
+.gallery-container-header {
+    padding: 2rem;
+}
+
+.gallery-container-header h2 {
+    font-size: 2.5rem;
+    color: #8f1428;
+    margin-bottom: .5rem;
+}
+
+.gallery-container-header hr {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #8f1428;
+}
+
+.gallery-cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 2rem;
+    padding: 0 2rem;
     gap: 2rem;
 }
