@@ -1,6 +1,6 @@
 .gallery-card {
     width: 30%;
-    height: 45vh;
+    height: 35vh;
     cursor: pointer;
     box-shadow: 0 4px 10px #312f2f49;
     transition: all .5s ease;
@@ -8,6 +8,8 @@
 
 .gallery-card:hover{
     box-shadow: 0 8px 16px #36323249;
+    transform: scale(1.1);
+
 }
 
 .gallery-card img {
@@ -16,9 +18,7 @@
     object-fit: cover;
     transition: all .5s ease-in-out;
 }
-.gallery-card img:hover{
-    transform: scale(1.1);
-}
+
 
 @media screen and (max-width:768px) {
     .gallery-card{

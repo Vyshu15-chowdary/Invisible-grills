@@ -47,7 +47,7 @@ const Gallery = () => {
       <Hero ImgUrl={ImgUrl} heading={heading} />
 
       {/*-----cloth hanger products-----*/}
-<GalleryCardContainer heading={"Cloth Drying Ceiling Hangers"}  items={images}/>
+      <GalleryCardContainer heading={"Cloth Drying Ceiling Hangers"} items={images} />
 
       <div className='Gallery'>
 
@@ -100,11 +100,11 @@ const Gallery = () => {
         </div>
 
       </div>
-  
 
 
 
-  <RawMaterial />
+
+      <RawMaterial />
     </>
   )
 }
