@@ -12,6 +12,8 @@ const About = () => {
     <>
       <Hero heading={heading} ImgUrl={ImgUrl} />
 
+      <WhyChooseUs />
+
       <div className="about-us">
         <div className="about-wrapper">
           <div className="txt-wrapper">
@@ -48,14 +50,13 @@ const About = () => {
             <div className="founder-contact">
               <h3>Contact Me</h3>
               <p><i className="fa-solid fa-phone-volume"></i> +91 90525 85999</p>
-              <p><i className="fa-solid fa-envelope"></i> vyshnavi@gmail.com</p>
+              <p><i className="fa-solid fa-envelope"></i> vishuchowdary20@gmail.com</p>
             </div>
           </div>
         </div>
       </div>
 
 
-      <WhyChooseUs />
     </>
 
 
