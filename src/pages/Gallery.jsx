@@ -28,6 +28,15 @@ import '../css/Gallery.css';
     './MD6.webp'
   ]
 
+  const grillsImages = [
+    './grills1.webp',
+    './grills2.webp',
+    './grills3.webp',
+    './grills4.jpg',
+    './grills5.webp',
+    './grills6.webp'
+  ]
+
 
 
 const Gallery = () => {
@@ -87,7 +96,27 @@ const Gallery = () => {
         </div>
 
       </div>
+      
     </div>
+    {/*----Invisible product-------*/}
+
+             <div className='Grills-gallery'>
+        <h2> <span>INVISIBLE GRILLS</span>  PRODUCTS</h2>
+        <div className='gallery-grid'>
+          <div className='Invisible grills'>
+             {grillsImages.map((src,index)=>(
+            <div key ={index} className='image-card'>
+            <img src = {src} alt={`Invisible grills ${index+1}`} />
+          </div>
+             ))}
+
+        </div>
+        </div>
+
+      </div>
+      
+    
+
     <RawMaterial />
     </>
   )
