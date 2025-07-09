@@ -46,7 +46,7 @@ const Gallery = () => {
     <>
       <Hero ImgUrl={ImgUrl} heading={heading} />
       <GalleryCardContainer heading={"Cloth Drying Ceiling Hangers"} items={images} />
-      {/* <GalleryCardContainer items={MeshImages} heading={"Mosquito Mesh Door Products"} /> */}
+      <GalleryCardContainer bgColor={"#F0E4D3"} items={MeshImages} heading={"Mosquito Mesh Door Products"} />
       {/* <GalleryCardContainer heading={"Invisible Grills Products"} items={grillsImages} /> */}
       <RawMaterial />
     </>
