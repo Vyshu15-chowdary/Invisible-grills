@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero';
 import RawMaterial from '../components/RawMaterial.jsx';
 import '../css/Gallery.css';
+import GalleryCardContainer from '../components/GalleryCardContainer.jsx';
 
 
 
@@ -46,6 +47,7 @@ const Gallery = () => {
       <Hero ImgUrl={ImgUrl} heading={heading} />
 
       {/*-----cloth hanger products-----*/}
+<GalleryCardContainer items={images}/>
 
       <div className='Gallery'>
 
