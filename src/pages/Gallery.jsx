@@ -18,6 +18,16 @@ import '../css/Gallery.css';
         
   ];
 
+  const MeshImages = [
+
+    './MD1.jpg',
+    './MD2.webp',
+    './MD3.jpg',
+    './MD4.jpg',
+    './MD5.jpeg',
+    './MD6.webp'
+  ]
+
 
 
 const Gallery = () => {
@@ -41,9 +51,11 @@ const Gallery = () => {
     <>
     <Hero ImgUrl={ImgUrl} heading={heading}/>
 
+    {/*-----cloth hanger products-----*/}
+
     <div className ='Gallery'>
       
-        <h1>Cloth Drying Ceiling Hanger Products</h1>
+        <h2><span>CLOTH</span> DRYING CEILING <span>HANGER </span> Products</h2>
         <div className='gallery-grid'>
         <div className='Cloth Hangers'>
           {images.map((src,index)=>(
@@ -55,6 +67,24 @@ const Gallery = () => {
         </div>
       </div>
       <div>
+
+      </div>
+
+
+      { /*---mesh door products------*/ }
+
+      <div className='mesh-gallery'>
+        <h2>MOSQUITO <span>MESH DOOR</span>  PRODUCTS</h2>
+        <div className='gallery-grid'>
+          <div className='Mesh Door'>
+             {MeshImages.map((src,index)=>(
+            <div key ={index} className='image-card'>
+            <img src = {src} alt={`MeshDoors ${index+1}`} />
+          </div>
+             ))}
+
+        </div>
+        </div>
 
       </div>
     </div>
