@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from '../components/Hero';
 import '../css/Services.css'
-import RawMaterial from '../components/RawMaterial.jsx';
+
 
 
 
@@ -72,7 +72,7 @@ const Service = () => {
         </div>
       </section>
 
-      <RawMaterial />
+  
 
       <section className='works'>
         <div className='work'>
