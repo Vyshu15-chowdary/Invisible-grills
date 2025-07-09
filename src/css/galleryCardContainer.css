@@ -27,3 +27,13 @@
     padding: 0 2rem;
     gap: 2rem;
 }
+
+
+@media screen and (max-width:768px) {
+    .gallery-container-header h2{
+        font-size: 1.5rem;
+    }
+    .gallery-container-header hr {
+    border-bottom: 1px solid #8f1428;
+}
+}
