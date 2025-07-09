@@ -45,65 +45,9 @@ const Gallery = () => {
   return (
     <>
       <Hero ImgUrl={ImgUrl} heading={heading} />
-
-      {/*-----cloth hanger products-----*/}
       <GalleryCardContainer heading={"Cloth Drying Ceiling Hangers"} items={images} />
-
-      <div className='Gallery'>
-
-        <h2><span>CLOTH</span> DRYING CEILING <span>HANGER </span> Products</h2>
-        <div className='gallery-grid'>
-          <div className='Cloth Hangers'>
-            {images.map((src, index) => (
-              <div key={index} className='image-card'>
-                <img src={src} alt={`clothhangers ${index + 1}`} />
-              </div>
-            ))}
-
-          </div>
-        </div>
-
-
-
-        { /*---mesh door products------*/}
-        <div className='Gallery'>
-          <div className='mesh-gallery'>
-            <h2>MOSQUITO <span>MESH DOOR</span>  PRODUCTS</h2>
-            <div className='gallery-grid'>
-              <div className='Mesh Door'>
-                {MeshImages.map((src, index) => (
-                  <div key={index} className='image-card'>
-                    <img src={src} alt={`MeshDoors ${index + 1}`} />
-                  </div>
-                ))}
-
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-      {/*----Invisible product-------*/}
-
-      <div className='Grills-gallery'>
-        <h2> <span>INVISIBLE GRILLS</span>  PRODUCTS</h2>
-        <div className='gallery-grid'>
-          <div className='Invisible grills'>
-            {grillsImages.map((src, index) => (
-              <div key={index} className='image-card'>
-                <img src={src} alt={`Invisible grills ${index + 1}`} />
-              </div>
-            ))}
-
-          </div>
-        </div>
-
-      </div>
-
-
-
-
+      {/* <GalleryCardContainer items={MeshImages} heading={"Mosquito Mesh Door Products"} /> */}
+      {/* <GalleryCardContainer heading={"Invisible Grills Products"} items={grillsImages} /> */}
       <RawMaterial />
     </>
   )
