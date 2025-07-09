@@ -75,14 +75,12 @@ const Gallery = () => {
 
         </div>
       </div>
-      <div>
-
-      </div>
+     
 
 
       { /*---mesh door products------*/ }
-
-      <div className='mesh-gallery'>
+      <div className='Gallery'>
+      <div className ='mesh-gallery'>
         <h2>MOSQUITO <span>MESH DOOR</span>  PRODUCTS</h2>
         <div className='gallery-grid'>
           <div className='Mesh Door'>
@@ -95,9 +93,10 @@ const Gallery = () => {
         </div>
         </div>
 
-      </div>
+ {/*    </div>
       
     </div>
+    </div> */}
     {/*----Invisible product-------*/}
 
              <div className='Grills-gallery'>
@@ -113,6 +112,9 @@ const Gallery = () => {
         </div>
         </div>
 
+      </div>
+      </div>
+      </div>
       </div>
       
     
