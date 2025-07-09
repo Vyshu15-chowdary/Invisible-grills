@@ -39,11 +39,11 @@ const Services = [
     image: "./greenmat.jpg",
     description: "Transform your space with lush, maintenance-free artificial grass that stays green all year round. Our artificial turf solutions are ideal for balconies, gardens, terraces, schools, playgrounds, and commercial spaces"
   },
-  {
-    title: "Cloth Roof Hanger",
-    image: './clothhanger.jpg',
-    description: "Maximize your drying space with our sleek and durable roof-mounted cloth hanger systems. Designed for modern homes, our hangers are ideal for balconies, utility areas, and indoor spaces—offering a convenient and space-saving solution for drying clothes."
-  }
+  // {
+  //   title: "Cloth Roof Hanger",
+  //   image: './clothhanger.jpg',
+  //   description: "Maximize your drying space with our sleek and durable roof-mounted cloth hanger systems. Designed for modern homes, our hangers are ideal for balconies, utility areas, and indoor spaces—offering a convenient and space-saving solution for drying clothes."
+  // }
 ];
 
 
@@ -58,18 +58,23 @@ const Service = () => {
       <Hero ImgUrl={ImgUrl} heading={heading} />
 
       <section className='service-section'>
-        <h2 className='service-title'>OUR SERVICES</h2>
+        <h2 className='service-title'>Our Services</h2>
+
         <div className='service-grid'>
           {Services.map((Service, index) => (
+
             <div className='service-card' key={index}>
               <img src={Service.image} alt={Service.title} className='service-image' />
               <div className='service-content'>
                 <h3>{Service.title}</h3>
+                <hr />
                 <p>{Service.description}</p>
               </div>
             </div>
+
           ))}
         </div>
+
       </section>
 
   
