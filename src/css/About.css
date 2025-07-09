@@ -1,4 +1,85 @@
-.about-us{
+.about-us {
     padding: 2rem;
-    background-color: aliceblue;
+    background-color: #fff;
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-wrapper .txt-wrapper {
+    width: 50%;
+color: #444;
+}
+
+.txt-wrapper h2{
+    font-size: 2rem;
+}
+.txt-wrapper p{
+    margin: .5rem 0;
+}
+.txt-wrapper ul{
+    padding: 1rem 2rem;
+}
+
+.about-wrapper .founder{
+    width: 30%;
+    color: #444;
+
+}
+.founder .founder-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.founder-wrapper .founder-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid;
+
+}
+
+.founder-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.founder-info{
+    text-align: center;
+}
+.founder-contact{
+    padding: .5rem 0;
+}
+.founder-contact h3{
+    margin-bottom: .5rem;
+}
+.founder-contact p{
+    padding: .125rem;
+}
+.founder-contact p i{
+    font-size: 18px;
+    margin-right: .5rem;
+}
+
+@media screen and (max-width:768px) {
+    .about-wrapper{
+        flex-direction: column;
+    }
+    .about-wrapper .txt-wrapper{
+        width: 100%;
+    }
+    .about-wrapper .founder{
+        width: 100%;
+    }
+    .founder .founder-wrapper{
+        flex-direction: column;
+        padding: 1rem 0;
+    }
 }
