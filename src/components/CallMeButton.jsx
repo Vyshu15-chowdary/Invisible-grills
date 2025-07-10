@@ -8,11 +8,12 @@ const CallMeButton = () => {
 
     const width = useWindowWidth();
     const isPhone = width < 768;
+    
 
   return (
     <>
     {
-      isPhone? <a href={`tel:${phoneNumber}`}>
+      isPhone ? <a href={`tel:${phoneNumber}`}>
         <img className='pIcon' src={pIcon} alt="call me icon" />
     </a> : null
     }
