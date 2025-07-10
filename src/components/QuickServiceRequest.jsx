@@ -25,7 +25,7 @@ const QuickServiceRequest = () => {
         <form onSubmit={handleSubmit} >
           
             <input autoComplete='off' type="text" value={name} onChange={(e)=>setName(e.target.value)} name='name' placeholder='Enter Full Name' />
-            <input autoComplete='off' type="text" name='number' placeholder='Enter Phone Number' />
+            <input autoComplete='off' type="text" name='phone' value={phone} onChange={(e)=>setPhone(e.target.value)} placeholder='Enter Phone Number' />
        
             <button type='submit'>Send</button>
         
