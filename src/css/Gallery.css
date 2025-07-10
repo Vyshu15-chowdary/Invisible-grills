@@ -1,16 +1,8 @@
 .Gallery{
-
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-   
-    
-
+padding: 2rem 10%;
 }
 .Gallery h2 {
     color: rgb(161, 6, 6);
-    margin-top: 10%;
-    margin-bottom: 10%;
     text-align: center;
     background-color: #130606;
     padding: 20px;
