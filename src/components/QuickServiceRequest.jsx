@@ -10,8 +10,16 @@ const QuickServiceRequest = () => {
   const handleSubmit =  (e)=>{
     e.preventDefault();
     
-    console.log(e);
+    const message = `Hi, I'm ${name} requesting for QUICK SERVICE. 
+    Please, contact me +91${phone}. 
+    Thank you.`
   
+    const encodeMessage = encodeURIComponent(message);
+    const phoneNumber = "919052585999";
+
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeMessage}`;
+
+    window.open(whatsappURL, '_blank');
   }
 
 
