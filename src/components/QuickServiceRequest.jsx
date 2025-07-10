@@ -1,28 +1,20 @@
-import React, { useRef } from 'react'
+import React, { useState } from 'react'
 import '../css/quickServiceRequest.css';
-import emailjs from "@emailjs/browser"
+
 
 
 const QuickServiceRequest = () => {
-  const form = useRef();
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
 
-  const SERVICE_ID = "service_w130xwf";
-  const TEMPLATE_ID = "template_t4a2aa4";
-  const PUBLIC_KEY = "DvLHQFj7QKSqA90cJ";
-
-  const sendMail = async (e)=>{
+  const handleSubmit =  (e)=>{
     e.preventDefault();
     
-    try {
-      const result = await emailjs.sendForm(SERVICE_ID,TEMPLATE_ID, form.current, PUBLIC_KEY );
-      console.log("Success", result.text);
-    } catch (error) {
-      console.log("error", error.text)
-    }
-
-    
-    
+    console.log(e);
+  
   }
+
+
   return (
     <div className='qsr'>
       <div className="txt-wrapper">
@@ -30,10 +22,10 @@ const QuickServiceRequest = () => {
         <h1>Free Inspection Request</h1>
       </div>
      
-        <form onSubmit={sendMail} ref={form}>
+        <form onSubmit={handleSubmit} >
           
-            <input autoComplete='off' type="text" name='name' placeholder='Enter Full Name' />
-            <input autoComplete='off' type="text" name='phone' placeholder='Enter Phone Number' />
+            <input autoComplete='off' type="text" value={name} onChange={(e)=>setName(e.target.value)} name='name' placeholder='Enter Full Name' />
+            <input autoComplete='off' type="text" name='number' placeholder='Enter Phone Number' />
        
             <button type='submit'>Send</button>
         
