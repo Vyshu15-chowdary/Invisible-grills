@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Hero from "../components/Hero"
 import WhyChooseUs from "../components/WhyChooseUs"
 
 import '../css/about.css'
 
 const About = () => {
-  const ImgUrl = "https://deepthiinvisiblegrills.com/wp-content/uploads/elementor/thumbs/Contact-for-Premium-Invisible-Grills-for-Balcony-r1nc8dpk4aabbcbwtxwtoay9mqac6dhsyy1y1lrry8.webp";
-  const heading = "Welcome To VIG";
 
+  const ImgUrl = "https://deepthiinvisiblegrills.com/wp-content/uploads/elementor/thumbs/Contact-for-Premium-Invisible-Grills-for-Balcony-r1nc8dpk4aabbcbwtxwtoay9mqac6dhsyy1y1lrry8.webp";
+  const heading = "About Us";
+
+  useEffect(() => {
+    document.title = "About Us"
+  }, [])
   return (
     <>
       <Hero heading={heading} ImgUrl={ImgUrl} />
@@ -21,7 +25,7 @@ const About = () => {
             <h2>What We Do?</h2>
             <hr />
 
-            <p>At Vyshnavi Invisible Grills, we redefine safety with elegance. 
+            <p>At Vyshnavi Invisible Grills, we redefine safety with elegance.
               Specializing in high-quality invisible grill installations,
               we offer modern, secure, and stylish solutions for : </p>
 

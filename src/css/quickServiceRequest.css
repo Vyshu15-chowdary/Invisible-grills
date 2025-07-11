@@ -41,6 +41,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     outline: none;
+    color: #555;
 }
 
 .qsr form button{
