@@ -16,9 +16,11 @@ const Contact = () => {
     <>
     <Hero ImgUrl={ImgUrl} heading={heading}/>
  
-    <ContactForm/>
     <Achievements/>
+    <ContactForm/>
+
     <GoogleMap/>
+
     </>
   )
 }

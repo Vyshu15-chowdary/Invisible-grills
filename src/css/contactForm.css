@@ -1,103 +1,84 @@
-.contact-form {
-    padding: 2rem;
-    background-color: #f1f1f1;
-}
-
-.contact-form-content {
+.cf-container{
+    width: 100%;
+    height: 90vh;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-}
-
-.contact-form-content .contact-form-img {
-    width: 30%;
-}
-
-.contact-form-img img {
-    width: 100%;
-}
-
-.contact-form-content form {
-    width: 30%;
-    /* border: 1px solid; */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.263);
-    border-radius: 5px;
-    overflow: hidden;
+    background-color: #f1f1f1;
+    color: #8f1428;
+    box-shadow: inset 0 2px 210px rgba(216, 90, 90, 0.475);
 
 }
 
-.contact-form-content .contact-form-header {
-    padding: 1rem .5rem;
-    background-color: #8f1428;
-    color: #fff;
-
-
-}
-
-.contact-form-content .form-features {
+.cf-container form{
     background-color: #fff;
-    padding: 1rem;
+    padding: 2rem 3rem;
+    box-shadow: 0 2px 210px rgba(216, 90, 90, 0.475);
+    width: 50%;
+    border-radius: 4px;
 }
 
-.form-features .form-control {
-    padding: .5rem;
-}
-
-.form-control input {
-    height: 50px;
+.cf-container input{
     width: 100%;
+    height: 60px;
     padding: 10px;
+    margin: 5px 0;
+     resize: none;
     outline: none;
-    border-radius: 3px;
-    border: 1px solid #bbb;
-    color: #444;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #999;
+    transition:  all .5s ease-in-out;
 }
+.cf-container input:focus{
+    box-shadow: 0px 2px 80px #0000002c;
 
-.form-control textarea {
+}
+.cf-container textarea{
     width: 100%;
+    height: 150px;
     padding: 10px;
+    margin: 10px 0;
     resize: none;
     outline: none;
-    border-radius: 3px;
-    border: 1px solid #bbb;
-    color: #444;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #999;
+    transition:  all .5s ease-in-out;
 }
 
-.form-features .btn-control {
-    text-align: end;
-    padding: .5rem;
+.cf-container textarea:focus{
+    box-shadow: 0px 2px 80px #0000002c;
 }
 
-.btn-control button {
-    height: 50px;
-    width: 150px;
-    border-radius: 50px;
+.cf-container button{
+    width: 100%;
+    height: 60px;
     outline: none;
     border: none;
     cursor: pointer;
     background-color: #8f1428;
     color: #fff;
     transition: all .5s ease-in-out;
+    border-radius: 5px;
+}
+.cf-container button:hover{
+    background-color: #b7253d;
+    box-shadow: 0px 2px 80px #0000002c;
+
 }
 
-.btn-control button:hover {
-    background-color: #a41e34;
-    cursor: pointer;
-    transform: translateY(-5px);
-}
 
-
-@media screen and (max-width: 768px) {
-    .contact-form{
+@media screen and (max-width:768px) {
+    .cf-container form{
+        width: 95%;
         padding: 1rem;
     }
- .contact-form-content .contact-form-img{
-    width: 100%;
-  }  
-
-  .contact-form-content form{
-    width: 100%;
-  }
+    .cf-container h1{
+        font-size: 28px;
+        text-align: center;
+        margin-top: 10px;
+    }
 }
