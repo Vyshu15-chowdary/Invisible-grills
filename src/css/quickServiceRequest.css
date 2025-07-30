@@ -3,7 +3,7 @@
     height: 25vh;
     margin: 0 auto;
     background-color: #fff;
-  background-color: #ece5e5;
+  background-color:white;
 
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.263);
@@ -19,7 +19,7 @@
     padding: 20px;
 }
 .txt-wrapper  h3{
-    color: #8f1428;
+    color: #020616;
 }
 .txt-wrapper h1{
     color: #333;
@@ -49,7 +49,7 @@
     outline: none;
     height: 50px;
     width: 100%;
-    background-color: #8f1428;
+    background-color: #020f35;
     color: #fff;
     cursor: pointer;
     border-radius: 5px;
