@@ -37,8 +37,9 @@ const Footer = () => {
                     <h2>Free Estimate</h2>
 
                     <p>Call Us: +91 6303 744627</p>
-                    <p>D No# 26-3-2555, 1st Street, Sapthagiri Colony, Vedayapalem, Nellore , 524004.</p>
-                    <p>Landmark: Opposite GVRR College, Mini Bypass.</p>
+                    <p>B.v nagar sapthagiri colony</p>
+                    <p>Old Vedhayapalem Mini Bypass.</p>
+                    <p>Near Ayyapa gudi fly over</p>
                 </div>
             </div>
 
