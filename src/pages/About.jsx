@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Hero from "../components/Hero"
 import WhyChooseUs from "../components/WhyChooseUs"
 
-import '../css/about.css'
+import '../css/About.css'
 
 const About = () => {
 
