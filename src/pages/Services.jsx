@@ -26,7 +26,7 @@ const Services = [
   },
   {
     title: "Bird Net",
-    image: "./birdnet.jpg",
+    image: "./Bird Net.jpg",
     description: "Protect your home and workspace from bird intrusions with our high-quality Bird Net Installation Service. "
   },
   {
