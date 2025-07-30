@@ -36,7 +36,7 @@ const Footer = () => {
                 <div className="footer-section">
                     <h2>Free Estimate</h2>
 
-                    <p>Call Us: +91 90525 85999</p>
+                    <p>Call Us: +91 6303 744627</p>
                     <p>D No# 26-3-2555, 1st Street, Sapthagiri Colony, Vedayapalem, Nellore , 524004.</p>
                     <p>Landmark: Opposite GVRR College, Mini Bypass.</p>
                 </div>
