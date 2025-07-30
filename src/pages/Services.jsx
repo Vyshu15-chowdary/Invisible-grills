@@ -37,7 +37,7 @@ const Services = [
     description: " Keep your home protected from mosquitoes and insects without compromising on fresh air and ventilation. Our Mosquito Net for Doors provides an effective, hygienic, and eco-friendly solution to prevent unwanted bugs from entering your living space."
   },
   {
-    title: "Artificial Grass",
+    title: "Artificial Garden",
     image: "./greenmat.jpg",
     description: "Transform your space with lush, maintenance-free artificial grass that stays green all year round. Our artificial turf solutions are ideal for balconies, gardens, terraces, schools, playgrounds, and commercial spaces"
   },

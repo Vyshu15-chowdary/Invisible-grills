@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Hero from '../components/Hero';
 import RawMaterial from '../components/RawMaterial.jsx';
+import img from '../../public/glry.jpg';
 import '../css/Gallery.css';
 import GalleryCardContainer from '../components/GalleryCardContainer.jsx';
 
@@ -38,7 +39,7 @@ const grillsImages = [
 
 const Gallery = () => {
 
-  const ImgUrl = "https://cdn-ikpjmaj.nitrocdn.com/tpiOjaVkKiYlOPaZEGMJBhdGjCOUFngB/assets/images/optimized/rev-79ca70e/elelaurels.com/wp-content/uploads/2016/12/Balcony.jpg";
+  const ImgUrl = img;
   const heading = "Gallery";
 
 useEffect(()=>{
