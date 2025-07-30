@@ -54,8 +54,8 @@ const About = () => {
             <hr />
             <div className="founder-contact">
               <h3>Contact Me</h3>
-              <p><i className="fa-solid fa-phone-volume"></i> {FOUNDER_PHONE}</p>
-              <p><i className="fa-solid fa-envelope"></i> {FOUNDER_EMAIL}</p>
+              <p><i className="fa-solid fa-phone-volume"></i> +91 90525 85999</p>
+              <p><i className="fa-solid fa-envelope"></i> vishuchowdary20@gmail.com</p>
             </div>
           </div>
         </div>
