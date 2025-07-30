@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import Hero from '../components/Hero';
+import img from '../../public/srvc_hero.webp';
 import '../css/Services.css'
 
 
@@ -49,7 +50,7 @@ const Services = [
 
 
 // Hero Section Items
-const ImgUrl =  {/*"public\service page.webp"*/};
+const ImgUrl = img;
 const heading = `Our Services`;
 
 
