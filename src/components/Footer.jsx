@@ -29,8 +29,8 @@ const Footer = () => {
                     <ul>
                         <li><NavLink>Invisible Grills</NavLink></li>
                         <li><NavLink>Clothes Hangers</NavLink></li>
-                        <li><NavLink>Green Mat</NavLink></li>
-                        <li><NavLink>Mesh</NavLink></li>
+                        <li><NavLink>Artificial Garden</NavLink></li>
+                        <li><NavLink> Mosquito Mesh Doors</NavLink></li>
                     </ul>
                 </div>
                 <div className="footer-section">
@@ -40,6 +40,7 @@ const Footer = () => {
                     <p>B.v nagar sapthagiri colony</p>
                     <p>Old Vedhayapalem Mini Bypass.</p>
                     <p>Near Ayyapa gudi fly over</p>
+                    <p>Nellore - 524004</p>
                 </div>
             </div>
 
