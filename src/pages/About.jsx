@@ -3,6 +3,7 @@ import Hero from "../components/Hero"
 import WhyChooseUs from "../components/WhyChooseUs"
 
 import '../css/About.css'
+import { FOUNDER_EMAIL, FOUNDER_IMAGE, FOUNDER_NAME, FOUNDER_PHONE } from '../../constant'
 
 const About = () => {
 
@@ -42,19 +43,19 @@ const About = () => {
           <div className="founder">
             <div className="founder-wrapper">
               <div className="founder-img">
-                <img src="https://avatars.githubusercontent.com/u/177138807?v=4" alt="" />
+                <img src={FOUNDER_IMAGE} alt="" />
               </div>
 
               <div className="founder-info">
-                <h2>Vyshnavi Yendluri</h2>
+                <h2>{FOUNDER_NAME}</h2>
                 <p>Founder</p>
               </div>
             </div>
             <hr />
             <div className="founder-contact">
               <h3>Contact Me</h3>
-              <p><i className="fa-solid fa-phone-volume"></i> +91 6303 744 627 </p>
-            {/*  <p><i className="fa-solid fa-envelope"></i></p>*/}
+              <p><i className="fa-solid fa-phone-volume"></i> +91 90525 85999</p>
+              <p><i className="fa-solid fa-envelope"></i> vishuchowdary20@gmail.com</p>
             </div>
           </div>
         </div>
