@@ -4,7 +4,7 @@ import useWindowWidth from '../hooks/useWindowWidth'
 
 import "../css/phoneButton.css"
 const CallMeButton = () => {
-    const phoneNumber = '+919052585999';
+    const phoneNumber = '+91 6303744627';
 
     const width = useWindowWidth();
     const isPhone = width < 768;
