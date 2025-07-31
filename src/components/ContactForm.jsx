@@ -7,7 +7,7 @@ const ContactForm = () => {
 
 
 
-  const phoneNumber = '916303744627';
+  const phoneNumber = '+916303744627';
 
   const finalMessage = `
     ${message}
