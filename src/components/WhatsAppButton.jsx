@@ -6,11 +6,13 @@ import { FOUNDER_WHATSAPP } from '../../constant';
 const WhatsAppButton = () => {
 
     const message = `Hi, 
+
     I'm looking for a free consultation for invisible grills in Nellore. 
-    Could you schedule a site visit and provide a quotation?`;
     
+    Could you schedule a site visit and provide a quotation?`;
+
     const encodeMessage = encodeURIComponent(message);
-    const phoneNumber = {FOUNDER_WHATSAPP};
+    const phoneNumber = "916303744627";
 
     const handleClick = () => {
         const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeMessage}`;
