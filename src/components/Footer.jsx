@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import "../css/footer.css"
+import { COMPANY_ADDRESS, FOUNDER_PHONE } from '../../constant';
 
 const Footer = () => {
     const data = new Date();
@@ -36,11 +37,13 @@ const Footer = () => {
                 <div className="footer-section">
                     <h2>Free Estimate</h2>
 
-                    <p>Call Us: +91 6303 744627</p>
-                    <p>B.v nagar sapthagiri colony</p>
+                    <p>Call Us: {FOUNDER_PHONE}</p>
+                    {/* <p>B.v nagar sapthagiri colony</p>
                     <p>Old Vedhayapalem Mini Bypass.</p>
                     <p>Near Ayyapa gudi fly over</p>
-                    <p>Nellore - 524004</p>
+                    <p>Nellore - 524004</p> */}
+
+                    <p>{COMPANY_ADDRESS}</p>
                 </div>
             </div>
 
