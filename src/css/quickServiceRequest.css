@@ -19,7 +19,7 @@
     padding: 20px;
 }
 .txt-wrapper  h3{
-    color: #020616;
+    color: #4c0033;
 }
 .txt-wrapper h1{
     color: #333;
@@ -49,14 +49,14 @@
     outline: none;
     height: 50px;
     width: 100%;
-    background-color: #020f35;
+    background-color: #4c0033;
     color: #fff;
     cursor: pointer;
     border-radius: 5px;
     transition: all .5s ease;
 }
 .qsr form button:hover{
-    background-color: #ba2039;
+    background-color: rgb(191, 160, 26);
 
 }
 

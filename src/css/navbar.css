@@ -4,8 +4,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color:#020f35;;
-    color: #ddd;
+    background-color:#4c0033;
+    color: rgb(223, 164, 28);
    
 }
 
@@ -17,12 +17,12 @@
 
 .navbar li a{
     text-decoration: none;
-    color: #ddd;
+    color: rgb(223, 164, 28);
 }
 .navbar li a.active{
-    color: #fff;
+    color: rgb(189, 165, 44);
     font-weight: bold;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #d49f0c;
 }
 
 

@@ -8,7 +8,7 @@
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 30px;
-  color: #020f35;
+  color: rgb(113, 5, 113);
 }
 
 
@@ -33,7 +33,7 @@
 
 .service-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px #36323249;
+  box-shadow: 0 8px 16px rgba(240, 198, 10, 0.918);
 
 }
 
@@ -50,7 +50,7 @@
 .service-content h3 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #901c24;
+  color: rgb(113, 5, 113);
   text-transform: capitalize;
 }
 
@@ -80,7 +80,7 @@
   background-color: #f1f1f1;
   border-radius: 5px;
   padding: 1rem;
-  box-shadow: 0 4px 10px #36323249;
+  box-shadow: 0 4px 10px rgb(238, 190, 15);
   transition: all .5s ease;
 }
 
@@ -103,7 +103,7 @@
 .work-content hr {
   border: none;
   outline: none;
-  border-bottom: 1px solid #901c24;
+  border-bottom: 1px solid rgb(188, 139, 14);
   margin: .5rem 0;
 }
 
@@ -122,7 +122,7 @@
 
 
 .work h2 {
-  color: #901c24;
+  color: purple;
   padding-top: 10px;
 
 }

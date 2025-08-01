@@ -10,14 +10,14 @@
 
 .gallery-container-header h2 {
     font-size: 2.5rem;
-    color: #8f1428;
+    color: #4c0033;
     margin-bottom: .5rem;
 }
 
 .gallery-container-header hr {
     outline: none;
     border: none;
-    border-bottom: 2px solid #8f1428;
+    border-bottom: 5px solid rgb(210, 173, 9);
 }
 
 .gallery-cards {

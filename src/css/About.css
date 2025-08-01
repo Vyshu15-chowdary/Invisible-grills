@@ -1,6 +1,6 @@
 .about-us {
     padding: 2rem;
-    background-color: #e1c3c3;
+    background-color: #4c0033;
 }
 
 .about-us hr {
@@ -16,12 +16,12 @@
 
 .about-wrapper .txt-wrapper {
     width: 50%;
-    color: #333;
+    color:  #b5b2b2;
 }
 
 .txt-wrapper h2 {
     font-size: 2rem;
-    color: #8f1428;
+    color: rgb(206, 155, 28);
 }
 
 .txt-wrapper p {
@@ -33,12 +33,12 @@
 }
 
 .txt-wrapper li::marker {
-    color: #8f1428;
+    color:  rgb(206, 155, 28);
 }
 
 .about-wrapper .founder {
     width: 30%;
-    color: #444;
+    color: #b5b2b2;
 
 }
 
@@ -71,7 +71,7 @@
 }
 
 .founder-info h2 {
-    color: #8f1428;
+    color: #f5efef;
 }
 
 
@@ -81,7 +81,7 @@
 
 .founder-contact h3 {
     margin-bottom: .5rem;
-    color: #8f1428;
+    color: #b5b2b2;
 }
 
 .founder-contact p {
@@ -91,7 +91,7 @@
 .founder-contact p i {
     font-size: 18px;
     margin-right: .5rem;
-    color: #8f1428;
+    color:  rgb(206, 155, 28);
 }
 
 @media screen and (max-width:768px) {
