@@ -9,8 +9,13 @@
    
 }
 .phone-navbar{
-  padding:0  0.3rem;
+  padding:0.2rem  0.5rem;
 }
+
+.phone-navbar i{
+  font-size: 25px;
+}
+
 .navbar li{
     display: inline-block;
     list-style: none;
