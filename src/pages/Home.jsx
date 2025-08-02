@@ -8,7 +8,8 @@ import Reviews from '../components/Reviews';
 
 const Home = () => {
   // const ImgUrl = 'https://www.mgscreens.com/assets/img/invisible/inv1.jpg';
-  const ImgUrl = "/public/homeHero.jpg";
+ // const ImgUrl = "https://thumbs.dreamstime.com/b/create-professional-inspiring-home-office-background-your-online-meetings-light-airy-minimalist-design-elevate-presence-371816809.jpg";
+ const ImgUrl ="https://chennaiinvisiblegrillforbalcony.com/img/invisible-grill-2.jpg"
   const heroText = 'VYSHNAVI  INVISIBLE GRILLS ';
 
 
