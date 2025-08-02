@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/hero.css'
 const Hero = ({ heading,ImgUrl }) => {
     const heroStyle = {
-        backgroundImage: `linear-gradient(to right, rgba(22, 4, 4, 0.51), rgba(0, 0, 0, 0.356)), url(${ImgUrl})`,
+        backgroundImage: `linear-gradient(to right, rgba(22, 4, 4, 0.51), rgba(0, 0, 0, 0.25)), url(${ImgUrl})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',

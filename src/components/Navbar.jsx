@@ -6,7 +6,8 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className="logo">
-         <img src="./VIGlogo.jpg"  alt ="vig logo" className='logo-img'></img></div>
+         <img src="./VIGlogo.jpg"  alt ="vig logo" className='logo-img'></img>
+         </div>
         
         <ul>
             <li><NavLink to={"/"}>Home</NavLink></li>
