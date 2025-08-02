@@ -29,7 +29,7 @@ const QuickServiceRequest = () => {
     Thank you.`
 
     const encodeMessage = encodeURIComponent(message);
-    const phoneNumber = "919052585999";
+    const phoneNumber = "916303744627";
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeMessage}`;
     window.open(whatsappURL, '_blank');
   }
