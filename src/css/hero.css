@@ -17,7 +17,7 @@
   background: linear-gradient(90deg, #4c0033, #5a0486, #4c0033);
   background-size: 200%;
   -webkit-background-clip: text;
-  -webkit-text-fill-color:#d0c528;
+  -webkit-text-fill-color:#dfb013;
   animation: shine 2s linear infinite, blink 1.5s infinite;
   margin-top: 50px;
   padding: 20px;
@@ -36,7 +36,7 @@
 /* Blinking glow */
 @keyframes blink {
   0%, 100% {
-    text-shadow: 0 0 10px #c3af13, 0 0 20px #c0b3cc, 0 0 30px #fce903;
+    text-shadow: 0 0 10px #050500, 0 0 20px #c0b3cc, 0 0 30px #fce903;
   }
   50% {
     text-shadow: 0 0 20px #4c0033, 0 0 30px #eeede2, 0 0 40px #4c0033;
