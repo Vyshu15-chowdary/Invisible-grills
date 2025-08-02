@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+
+
+
+
+
+
 .hero{
     height: 50vh;
     width: 100%;
@@ -6,51 +13,61 @@
     align-items: center;
     
 }
+.hero h1{
 
-    .hero h1 {
-  font-family: 'Unica One', cursive;
+  font-family: 'Cinzel', sans-serif; /* You can change this to a stylish font */
   font-size: 3.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
   text-align: center;
-  letter-spacing: 4px;
-  background: linear-gradient(90deg, #4c0033, #5a0486, #4c0033);
-  background-size: 200%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color:#dfb013;
-  animation: shine 2s linear infinite, blink 1.5s infinite;
-  margin-top: 50px;
+  color: #510a42; /* Golden text */
   padding: 20px;
-}
+  background: linear-gradient(
+    120deg,
+    rgba(122, 90, 115, 0.819) 0%,
+    
+    rgba(255, 255, 255, 0) 100%
+  );
+ transform: skewX(-20deg);
+  animation: shine 2.5s infinite;
 
-/* Shine animation */
+  /* Deep Purple Border */
+  border: 2px solid #893305;
+  display: inline-block;
+  border-radius: 12px;
+
+  /* Glow (not blurred) */
+  box-shadow: 0 0 10px #5a4956, 0 0 10px #c971b3 inset;
+
+    
+  text-shadow:
+    0 0 2px #b0810a,
+    0 0 2px #eee609,
+    0 0 3px #f4c90a;
+
+
+ 
+}
 @keyframes shine {
-  0% {
-    background-position: 0%;
-  }
-  100% {
-    background-position: 100%;
-  }
+  0% { left: -35%; }
+  100% { left: 105%; }
 }
 
-/* Blinking glow */
-@keyframes blink {
-  0%, 100% {
-    text-shadow: 0 0 10px #050500, 0 0 20px #c0b3cc, 0 0 30px #fce903;
-  }
-  50% {
-    text-shadow: 0 0 20px #4c0033, 0 0 30px #eeede2, 0 0 40px #4c0033;
-  }
+/* Flicker Keyframes */
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  45% { opacity: 0.95; }
+  46% { opacity: 0.4; }
+  47% { opacity: 0.9; }
+  50% { opacity: 0.8; }
+  52% { opacity: 1; }
+  90% { opacity: 0.9; }
 }
 
 
-@media screen and (max-width: 768px) {
-  .hero h1 {
-    font-size: 2.5rem; /* Adjust font size for smaller screens */
-    padding: 10px; /* Adjust padding for smaller screens */
-  }
-  
-}
+
+
+   
+
+
 
 
   
