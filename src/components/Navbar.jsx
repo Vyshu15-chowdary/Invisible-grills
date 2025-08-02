@@ -5,8 +5,9 @@ import "../css/navbar.css"
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <div className="logo"><h1>VIG</h1></div>
-
+        <div className="logo">
+         <img src="./VIGlogo.jpg"  alt ="vig logo" className='logo-img'></img></div>
+        
         <ul>
             <li><NavLink to={"/"}>Home</NavLink></li>
             <li><NavLink to={"/about"}>About Us</NavLink></li>
