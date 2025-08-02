@@ -2,7 +2,7 @@ import React from 'react'
 import "../css/navbar.css"
 const NavbarPhone = ({ setIsActivePhoneNavbar }) => {
     return (
-        <div className='navbar'>
+        <div className='navbar phone-navbar'>
             <div className="logo">
                 <img src="./VIGlogo.jpg" alt="vig logo" className='logo-img'></img>
 

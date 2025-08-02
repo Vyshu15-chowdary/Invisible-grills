@@ -8,7 +8,9 @@
     color: rgb(223, 164, 28);
    
 }
-
+.phone-navbar{
+  padding:0  0.3rem;
+}
 .navbar li{
     display: inline-block;
     list-style: none;

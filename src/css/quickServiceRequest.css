@@ -67,6 +67,7 @@
         width: 90%;
         flex-direction: column;
         height: auto;
+        top: -5vh;
     }
     .qsr .txt-wrapper{
         width: 100%;
