@@ -8,7 +8,7 @@ import Reviews from '../components/Reviews';
 
 const Home = () => {
   const ImgUrl = 'https://www.mgscreens.com/assets/img/invisible/inv1.jpg';
-  const heroText = 'Vyshnavi Invisible Grills';
+  const heroText = 'VYSHNAVI  INVISIBLE GRILLS ';
 
 
   return (
