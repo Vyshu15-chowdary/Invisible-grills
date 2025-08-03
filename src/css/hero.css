@@ -10,39 +10,49 @@
     
 }
 .hero h1{
+ font-size: 4rem;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
 
-  font-family: 'Cinzel', sans-serif; /* You can change this to a stylish font */
-  font-size: 3.5rem;
-  text-align: center;
-  color: #510a42; /* Golden text */
-  padding: 20px;
- 
- transform: skewX(-20deg);
-  animation: shine 2.5s infinite;
+      /* Gradient Shine */
+      background: #ece9eb;
+      background-size: 200%;
+      background-repeat: no-repeat;
+      background-clip: text;
+      -webkit-background-clip: text;
+       color: transparent;
+      -webkit-text-fill-color: transparent;
 
+      /* Glow Border */
+      -webkit-text-stroke: 3px #e9170f;
 
-  /* Glow (not blurred) */
+      /* Effects */
+      animation:
+        shine 2.5s linear infinite,
+        pulse 5s ease-in-out infinite;
 
-
-    
-  text-shadow:
-    0 0 2px #b0810a,
-    0 0 2px #eee609,
-    0 0 3px #f4c90a;
-
-
- 
 }
-
-
-
-
-   
-
-
-
-
-  
-
-
-
+ @keyframes shine {
+      0% {
+        background-position: -200%;
+      }
+      100% {
+        background-position: 200%;
+      }
+    }
+     @keyframes shine {
+      0% {
+        background-position: -200%;
+      }
+      100% {
+        background-position: 200%;
+      }
+       50% {
+        text-shadow:
+          0 0 15px #f4edec,
+          
+          0 0 45px #b07a06;
+      }
+    }
