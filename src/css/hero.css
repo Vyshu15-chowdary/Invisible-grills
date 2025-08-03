@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
 
 
-
-
-
-
 .hero{
     height: 50vh;
     width: 100%;
@@ -20,22 +16,13 @@
   text-align: center;
   color: #510a42; /* Golden text */
   padding: 20px;
-  background: linear-gradient(
-    120deg,
-    rgba(122, 90, 115, 0.819) 0%,
-    
-    rgba(255, 255, 255, 0) 100%
-  );
+ 
  transform: skewX(-20deg);
   animation: shine 2.5s infinite;
 
-  /* Deep Purple Border */
-  border: 2px solid #893305;
-  display: inline-block;
-  border-radius: 12px;
 
   /* Glow (not blurred) */
-  box-shadow: 0 0 10px #5a4956, 0 0 10px #c971b3 inset;
+
 
     
   text-shadow:
@@ -45,21 +32,6 @@
 
 
  
-}
-@keyframes shine {
-  0% { left: -35%; }
-  100% { left: 105%; }
-}
-
-/* Flicker Keyframes */
-@keyframes flicker {
-  0%, 100% { opacity: 1; }
-  45% { opacity: 0.95; }
-  46% { opacity: 0.4; }
-  47% { opacity: 0.9; }
-  50% { opacity: 0.8; }
-  52% { opacity: 1; }
-  90% { opacity: 0.9; }
 }
 
 
