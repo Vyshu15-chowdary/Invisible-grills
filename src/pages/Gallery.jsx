@@ -39,7 +39,7 @@ const grillsImages = [
 
 const Gallery = () => {
 
-  const ImgUrl = img;
+  const ImgUrl = "https://www.aluminiumwrought.com/wp-content/uploads/2023/04/Invisible-Grill-Singapore-1.jpeg";
   const heading = "Gallery";
 
 useEffect(()=>{
