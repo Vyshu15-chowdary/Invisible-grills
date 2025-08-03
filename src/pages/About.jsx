@@ -7,7 +7,8 @@ import { FOUNDER_EMAIL, FOUNDER_IMAGE, FOUNDER_NAME, FOUNDER_PHONE } from '../..
 
 const About = () => {
 
-  const ImgUrl = "https://deepthiinvisiblegrills.com/wp-content/uploads/elementor/thumbs/Contact-for-Premium-Invisible-Grills-for-Balcony-r1nc8dpk4aabbcbwtxwtoay9mqac6dhsyy1y1lrry8.webp";
+ {/* const ImgUrl = "https://deepthiinvisiblegrills.com/wp-content/uploads/elementor/thumbs/Contact-for-Premium-Invisible-Grills-for-Balcony-r1nc8dpk4aabbcbwtxwtoay9mqac6dhsyy1y1lrry8.webp";*/}
+ const ImgUrl = "https://ehomes.com.sg/wp-content/uploads/2022/07/PHOTO-2021-10-23-13-51-51-1.jpg";
   const heading = "About Us";
 
   useEffect(() => {
