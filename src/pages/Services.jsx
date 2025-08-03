@@ -50,7 +50,7 @@ const Services = [
 
 
 // Hero Section Items
-const ImgUrl = img;
+const ImgUrl = "https://cdn1.npcdn.net/userfiles/25340/file/Sliding_Casement_Grilles.png";
 const heading = `Our Services`;
 
 
